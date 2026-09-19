@@ -1,0 +1,40 @@
+{
+  "status": "repeatable_single_pose_offset",
+  "acquisitions": 3,
+  "offset_candidates_deg": [
+    170.26525624460328,
+    350.2652562446033
+  ],
+  "preferred_branch_deg": 350.2652562446033,
+  "reference_offset_deg": 357.527648925781,
+  "change_from_reference_deg": -7.262392681177744,
+  "individual_preferred_offsets_deg": [
+    350.7301918512453,
+    350.1224561772415,
+    349.94313373592695
+  ],
+  "max_repeat_deviation_deg": 0.4649356066420296,
+  "repeat_range_deg": 0.7870581153183593,
+  "max_within_run_block_error_deg": 1.3012178509947887,
+  "encoder_ratio": 2.0,
+  "encoder_inverted": false,
+  "d_axis": "minimum_inductance",
+  "duty": 0.1,
+  "raw_encoder_positions_deg": [
+    307.6050031304348,
+    307.60093233333333,
+    307.6018779325843
+  ],
+  "evaluated_dft_frames": 216,
+  "baseline_sha256": "44842c255c068e60ef3bccd71399ad8f96b03824f30776e05097921be933b589",
+  "applied": false,
+  "multi_pose_validated": false,
+  "startup_validated": false,
+  "required_next_step": "Repeat at another locked mechanical pose with power removed during repositioning",
+  "limitation": "Repeatability is not absolute accuracy; ratio/direction and phase convention need independent validation",
+  "source_reports": [
+    "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-05\\result.json",
+    "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-06\\result.json",
+    "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-07\\result.json"
+  ]
+}

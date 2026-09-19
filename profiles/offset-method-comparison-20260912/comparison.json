@@ -1,0 +1,175 @@
+{
+  "status": "diagnostic_only_no_matched_pose_validation",
+  "delta_connection": "user_confirmed",
+  "encoder_ratio_assumed": 2,
+  "encoder_inverted_assumed": false,
+  "training": [
+    {
+      "method": "HFI",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-measured-20260912\\offset-result.json",
+      "encoder_deg": 307.60260446545067,
+      "offset_deg": -9.734743755396721,
+      "repeat_range_deg": 0.7870581153183593,
+      "baseline_sha256": "44842c255c068e60ef3bccd71399ad8f96b03824f30776e05097921be933b589",
+      "source_reports": [
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-05\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-06\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-offset-20260912-07\\result.json"
+      ]
+    },
+    {
+      "method": "HFI",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose2-20260912\\offset-result.json",
+      "encoder_deg": 286.588523705368,
+      "offset_deg": -2.041898231524897,
+      "repeat_range_deg": 0.17352510406976762,
+      "baseline_sha256": "8a8788c14a5bf5824cef0238bd4712c44c5adc3423c64715334122bb14e9e1f2",
+      "source_reports": [
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose2-20260912-01\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose2-20260912-02\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose2-20260912-03\\result.json"
+      ]
+    },
+    {
+      "method": "HFI",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose3-20260912\\offset-result.json",
+      "encoder_deg": 263.41354868778814,
+      "offset_deg": 0.6324946303230092,
+      "repeat_range_deg": 1.3122269592985276,
+      "baseline_sha256": "8a8788c14a5bf5824cef0238bd4712c44c5adc3423c64715334122bb14e9e1f2",
+      "source_reports": [
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose3-20260912-01\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose3-20260912-02\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose3-20260912-03\\result.json"
+      ]
+    },
+    {
+      "method": "HFI",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose4-20260912\\offset-result.json",
+      "encoder_deg": 212.7883415703247,
+      "offset_deg": -9.233130964682118,
+      "repeat_range_deg": 0.8865166981092898,
+      "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+      "source_reports": [
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose4-20260912-01\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose4-20260912-02\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-pose4-20260912-03\\result.json"
+      ]
+    }
+  ],
+  "check": [
+    {
+      "method": "HFI",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-return-20260912\\offset-result.json",
+      "encoder_deg": 309.10372246807333,
+      "offset_deg": -8.906958547865372,
+      "repeat_range_deg": 0.5092291108071549,
+      "baseline_sha256": "8a8788c14a5bf5824cef0238bd4712c44c5adc3423c64715334122bb14e9e1f2",
+      "source_reports": [
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-return-20260912-01\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-return-20260912-02\\result.json",
+        "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-return-20260912-03\\result.json"
+      ],
+      "model_difference_deg": 1.4970975502155852
+    }
+  ],
+  "model": {
+    "model": "offset = c + a*cos(4*mechanical_angle) + b*sin(4*mechanical_angle)",
+    "hypothesized_period_mechanical_deg": 90,
+    "coefficients_deg": [
+      -4.791234316010503,
+      6.178099412908731,
+      0.12296803354640584
+    ],
+    "constant_only_rms_deg": 4.493800543353164,
+    "training_rms_deg": 0.3098019270223778,
+    "training_residuals_deg": [
+      0.36815183133101215,
+      0.15876103420684995,
+      -0.058091495258103754,
+      -0.4688213702797537
+    ],
+    "leave_one_pose_out_errors_deg": [
+      1.0428005601904555,
+      2.418155927649824,
+      -6.608694340563926,
+      -0.8188810499786481
+    ],
+    "leave_one_pose_out_max_abs_deg": 6.608694340563926,
+    "all_leave_one_out_fits_supported": true,
+    "geometric_periodicity_verified": false,
+    "correction_validated": false,
+    "auto_apply_allowed": false
+  },
+  "alignment": [
+    {
+      "method": "stator_field",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\stator-alignment-pilot-20260912-06\\result.json",
+      "index": 0,
+      "encoder_deg": 195.6273349577916,
+      "field_deg": 120.0,
+      "offset_deg": 1.2546699155831789,
+      "net_travel_deg": 28.01991095779158,
+      "run_ok": true,
+      "run_errors": [],
+      "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+      "nearest_hfi_source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose4-20260912\\offset-result.json",
+      "mechanical_distance_deg": 17.1610066125331,
+      "same_pose": false,
+      "measured_method_difference_deg": null,
+      "model_prediction_deg": -1.8303155912380495,
+      "model_difference_deg": 3.0849855068212264
+    },
+    {
+      "method": "stator_field",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\stator-alignment-sweep-20260912-01\\result.json",
+      "index": 1,
+      "encoder_deg": 207.83680672416904,
+      "field_deg": 150.0,
+      "offset_deg": -4.326386551661926,
+      "net_travel_deg": 11.489142724169028,
+      "run_ok": false,
+      "run_errors": [
+        "Rotor did not track field step; no further steps permitted"
+      ],
+      "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+      "nearest_hfi_source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose4-20260912\\offset-result.json",
+      "mechanical_distance_deg": 4.951534846155653,
+      "same_pose": false,
+      "measured_method_difference_deg": null,
+      "model_prediction_deg": -6.925648921335004,
+      "model_difference_deg": 2.5992623696730845
+    },
+    {
+      "method": "stator_field",
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\stator-alignment-pilot-20260912-07\\result.json",
+      "index": 0,
+      "encoder_deg": 195.76569485683953,
+      "field_deg": 120.0,
+      "offset_deg": 1.5313897136790615,
+      "net_travel_deg": -12.64494514316047,
+      "run_ok": true,
+      "run_errors": [],
+      "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+      "nearest_hfi_source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\profiles\\synrm-as5048a-offset-pose4-20260912\\offset-result.json",
+      "mechanical_distance_deg": 17.02264671348516,
+      "same_pose": false,
+      "measured_method_difference_deg": null,
+      "model_prediction_deg": -1.882842706568491,
+      "model_difference_deg": 3.414232420247558
+    }
+  ],
+  "current_limits_changed": false,
+  "motor_commands_sent": false,
+  "offset_applied": false,
+  "calibration_validated": false,
+  "next_measurement": "HFI at a mechanically locked pose matching a recorded field-alignment equilibrium",
+  "caveat": "Model differences across methods are not measured same-pose errors; no automatic correction",
+  "excluded_alignment_steps": [
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\stator-alignment-sweep-20260912-01\\result.json",
+      "index": 0,
+      "reason": "No independently observed move-and-settle"
+    }
+  ]
+}

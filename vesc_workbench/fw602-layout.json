@@ -1,0 +1,1897 @@
+{
+  "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+  "layouts": {
+    "motor": {
+      "signature": 776184161,
+      "size": 481,
+      "fields": {
+        "pwm_mode": {
+          "offset": 4,
+          "format": "B",
+          "scale": 1
+        },
+        "comm_mode": {
+          "offset": 5,
+          "format": "B",
+          "scale": 1
+        },
+        "motor_type": {
+          "offset": 6,
+          "format": "B",
+          "scale": 1
+        },
+        "sensor_mode": {
+          "offset": 7,
+          "format": "B",
+          "scale": 1
+        },
+        "l_current_max": {
+          "offset": 8,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_current_min": {
+          "offset": 12,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_in_current_max": {
+          "offset": 16,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_in_current_min": {
+          "offset": 20,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_abs_current_max": {
+          "offset": 24,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_min_erpm": {
+          "offset": 28,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_max_erpm": {
+          "offset": 32,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_erpm_start": {
+          "offset": 36,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_max_erpm_fbrake": {
+          "offset": 38,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_max_erpm_fbrake_cc": {
+          "offset": 42,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_min_vin": {
+          "offset": 46,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_max_vin": {
+          "offset": 50,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_battery_cut_start": {
+          "offset": 54,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_battery_cut_end": {
+          "offset": 58,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_slow_abs_current": {
+          "offset": 62,
+          "format": "B",
+          "scale": 1
+        },
+        "l_temp_fet_start": {
+          "offset": 63,
+          "format": "h",
+          "scale": 10.0
+        },
+        "l_temp_fet_end": {
+          "offset": 65,
+          "format": "h",
+          "scale": 10.0
+        },
+        "l_temp_motor_start": {
+          "offset": 67,
+          "format": "h",
+          "scale": 10.0
+        },
+        "l_temp_motor_end": {
+          "offset": 69,
+          "format": "h",
+          "scale": 10.0
+        },
+        "l_temp_accel_dec": {
+          "offset": 71,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_min_duty": {
+          "offset": 73,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_max_duty": {
+          "offset": 75,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_watt_max": {
+          "offset": 77,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_watt_min": {
+          "offset": 81,
+          "format": "f",
+          "scale": 1.0
+        },
+        "l_current_max_scale": {
+          "offset": 85,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_current_min_scale": {
+          "offset": 87,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "l_duty_start": {
+          "offset": 89,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "sl_min_erpm": {
+          "offset": 91,
+          "format": "f",
+          "scale": 1.0
+        },
+        "sl_min_erpm_cycle_int_limit": {
+          "offset": 95,
+          "format": "f",
+          "scale": 1.0
+        },
+        "sl_max_fullbreak_current_dir_change": {
+          "offset": 99,
+          "format": "f",
+          "scale": 1.0
+        },
+        "sl_cycle_int_limit": {
+          "offset": 103,
+          "format": "h",
+          "scale": 10.0
+        },
+        "sl_phase_advance_at_br": {
+          "offset": 105,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "sl_cycle_int_rpm_br": {
+          "offset": 107,
+          "format": "f",
+          "scale": 1.0
+        },
+        "sl_bemf_coupling_k": {
+          "offset": 111,
+          "format": "f",
+          "scale": 1.0
+        },
+        "hall_table[0]": {
+          "offset": 115,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[1]": {
+          "offset": 116,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[2]": {
+          "offset": 117,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[3]": {
+          "offset": 118,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[4]": {
+          "offset": 119,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[5]": {
+          "offset": 120,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[6]": {
+          "offset": 121,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_table[7]": {
+          "offset": 122,
+          "format": "B",
+          "scale": 1
+        },
+        "hall_sl_erpm": {
+          "offset": 123,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_current_kp": {
+          "offset": 127,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_current_ki": {
+          "offset": 131,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_f_zv": {
+          "offset": 135,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_dt_us": {
+          "offset": 139,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_encoder_inverted": {
+          "offset": 143,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_encoder_offset": {
+          "offset": 144,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_encoder_ratio": {
+          "offset": 148,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_sensor_mode": {
+          "offset": 152,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_pll_kp": {
+          "offset": 153,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_pll_ki": {
+          "offset": 157,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_motor_l": {
+          "offset": 161,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_motor_ld_lq_diff": {
+          "offset": 165,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_motor_r": {
+          "offset": 169,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_motor_flux_linkage": {
+          "offset": 173,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_observer_gain": {
+          "offset": 177,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_observer_gain_slow": {
+          "offset": 181,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_observer_offset": {
+          "offset": 185,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_duty_dowmramp_kp": {
+          "offset": 187,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_duty_dowmramp_ki": {
+          "offset": 191,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_start_curr_dec": {
+          "offset": 195,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_start_curr_dec_rpm": {
+          "offset": 197,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_openloop_rpm": {
+          "offset": 201,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_openloop_rpm_low": {
+          "offset": 205,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_d_gain_scale_start": {
+          "offset": 207,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_d_gain_scale_max_mod": {
+          "offset": 209,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_sl_openloop_hyst": {
+          "offset": 211,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_openloop_time_lock": {
+          "offset": 213,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_openloop_time_ramp": {
+          "offset": 215,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_openloop_time": {
+          "offset": 217,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_openloop_boost_q": {
+          "offset": 219,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_openloop_max_q": {
+          "offset": 221,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_hall_table[0]": {
+          "offset": 223,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[1]": {
+          "offset": 224,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[2]": {
+          "offset": 225,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[3]": {
+          "offset": 226,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[4]": {
+          "offset": 227,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[5]": {
+          "offset": 228,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[6]": {
+          "offset": 229,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_table[7]": {
+          "offset": 230,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hall_interp_erpm": {
+          "offset": 231,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_sl_erpm": {
+          "offset": 235,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_sample_v0_v7": {
+          "offset": 239,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_sample_high_current": {
+          "offset": 240,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_sat_comp_mode": {
+          "offset": 241,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_sat_comp": {
+          "offset": 242,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_temp_comp": {
+          "offset": 244,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_temp_comp_base_temp": {
+          "offset": 245,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_current_filter_const": {
+          "offset": 247,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_cc_decoupling": {
+          "offset": 249,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_observer_type": {
+          "offset": 250,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_hfi_voltage_start": {
+          "offset": 251,
+          "format": "h",
+          "scale": 10.0
+        },
+        "foc_hfi_voltage_run": {
+          "offset": 253,
+          "format": "h",
+          "scale": 10.0
+        },
+        "foc_hfi_voltage_max": {
+          "offset": 255,
+          "format": "h",
+          "scale": 10.0
+        },
+        "foc_hfi_gain": {
+          "offset": 257,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_hfi_hyst": {
+          "offset": 259,
+          "format": "h",
+          "scale": 100.0
+        },
+        "foc_sl_erpm_hfi": {
+          "offset": 261,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_hfi_start_samples": {
+          "offset": 265,
+          "format": "H",
+          "scale": 1.0
+        },
+        "foc_hfi_obs_ovr_sec": {
+          "offset": 267,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_hfi_samples": {
+          "offset": 271,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_offsets_cal_on_boot": {
+          "offset": 272,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_offsets_current[0]": {
+          "offset": 273,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_offsets_current[1]": {
+          "offset": 277,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_offsets_current[2]": {
+          "offset": 281,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_offsets_voltage[0]": {
+          "offset": 285,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_offsets_voltage[1]": {
+          "offset": 287,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_offsets_voltage[2]": {
+          "offset": 289,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_offsets_voltage_undriven[0]": {
+          "offset": 291,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_offsets_voltage_undriven[1]": {
+          "offset": 293,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_offsets_voltage_undriven[2]": {
+          "offset": 295,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_phase_filter_enable": {
+          "offset": 297,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_phase_filter_disable_fault": {
+          "offset": 298,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_phase_filter_max_erpm": {
+          "offset": 299,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_mtpa_mode": {
+          "offset": 303,
+          "format": "B",
+          "scale": 1
+        },
+        "foc_fw_current_max": {
+          "offset": 304,
+          "format": "f",
+          "scale": 1.0
+        },
+        "foc_fw_duty_start": {
+          "offset": 308,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_fw_ramp_time": {
+          "offset": 310,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "foc_fw_q_current_factor": {
+          "offset": 312,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "foc_speed_soure": {
+          "offset": 314,
+          "format": "B",
+          "scale": 1
+        },
+        "gpd_buffer_notify_left": {
+          "offset": 315,
+          "format": "h",
+          "scale": 1.0
+        },
+        "gpd_buffer_interpol": {
+          "offset": 317,
+          "format": "h",
+          "scale": 1.0
+        },
+        "gpd_current_filter_const": {
+          "offset": 319,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "gpd_current_kp": {
+          "offset": 321,
+          "format": "f",
+          "scale": 1.0
+        },
+        "gpd_current_ki": {
+          "offset": 325,
+          "format": "f",
+          "scale": 1.0
+        },
+        "sp_pid_loop_rate": {
+          "offset": 329,
+          "format": "B",
+          "scale": 1
+        },
+        "s_pid_kp": {
+          "offset": 330,
+          "format": "f",
+          "scale": 1.0
+        },
+        "s_pid_ki": {
+          "offset": 334,
+          "format": "f",
+          "scale": 1.0
+        },
+        "s_pid_kd": {
+          "offset": 338,
+          "format": "f",
+          "scale": 1.0
+        },
+        "s_pid_kd_filter": {
+          "offset": 342,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "s_pid_min_erpm": {
+          "offset": 344,
+          "format": "f",
+          "scale": 1.0
+        },
+        "s_pid_allow_braking": {
+          "offset": 348,
+          "format": "B",
+          "scale": 1
+        },
+        "s_pid_ramp_erpms_s": {
+          "offset": 349,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_kp": {
+          "offset": 353,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_ki": {
+          "offset": 357,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_kd": {
+          "offset": 361,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_kd_proc": {
+          "offset": 365,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_kd_filter": {
+          "offset": 369,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "p_pid_ang_div": {
+          "offset": 371,
+          "format": "f",
+          "scale": 1.0
+        },
+        "p_pid_gain_dec_angle": {
+          "offset": 375,
+          "format": "h",
+          "scale": 10.0
+        },
+        "p_pid_offset": {
+          "offset": 377,
+          "format": "f",
+          "scale": 1.0
+        },
+        "cc_startup_boost_duty": {
+          "offset": 381,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "cc_min_current": {
+          "offset": 383,
+          "format": "f",
+          "scale": 1.0
+        },
+        "cc_gain": {
+          "offset": 387,
+          "format": "f",
+          "scale": 1.0
+        },
+        "cc_ramp_step_max": {
+          "offset": 391,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "m_fault_stop_time_ms": {
+          "offset": 393,
+          "format": "i",
+          "scale": 1.0
+        },
+        "m_duty_ramp_step": {
+          "offset": 397,
+          "format": "h",
+          "scale": 10000.0
+        },
+        "m_current_backoff_gain": {
+          "offset": 399,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_encoder_counts": {
+          "offset": 403,
+          "format": "I",
+          "scale": 1.0
+        },
+        "m_encoder_sin_amp": {
+          "offset": 407,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_encoder_cos_amp": {
+          "offset": 409,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_encoder_sin_offset": {
+          "offset": 411,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_encoder_cos_offset": {
+          "offset": 413,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_encoder_sincos_filter_constant": {
+          "offset": 415,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_encoder_sincos_phase_correction": {
+          "offset": 417,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "m_sensor_port_mode": {
+          "offset": 419,
+          "format": "B",
+          "scale": 1
+        },
+        "m_invert_direction": {
+          "offset": 420,
+          "format": "B",
+          "scale": 1
+        },
+        "m_drv8301_oc_mode": {
+          "offset": 421,
+          "format": "B",
+          "scale": 1
+        },
+        "m_drv8301_oc_adj": {
+          "offset": 422,
+          "format": "B",
+          "scale": 1
+        },
+        "m_bldc_f_sw_min": {
+          "offset": 423,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_bldc_f_sw_max": {
+          "offset": 427,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_dc_f_sw": {
+          "offset": 431,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_ntc_motor_beta": {
+          "offset": 435,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_out_aux_mode": {
+          "offset": 439,
+          "format": "B",
+          "scale": 1
+        },
+        "m_motor_temp_sens_type": {
+          "offset": 440,
+          "format": "B",
+          "scale": 1
+        },
+        "m_ptc_motor_coeff": {
+          "offset": 441,
+          "format": "f",
+          "scale": 1.0
+        },
+        "m_ntcx_ptcx_res": {
+          "offset": 445,
+          "format": "h",
+          "scale": 0.1
+        },
+        "m_ntcx_ptcx_temp_base": {
+          "offset": 447,
+          "format": "h",
+          "scale": 10.0
+        },
+        "m_hall_extra_samples": {
+          "offset": 449,
+          "format": "B",
+          "scale": 1
+        },
+        "m_batt_filter_const": {
+          "offset": 450,
+          "format": "B",
+          "scale": 1
+        },
+        "si_motor_poles": {
+          "offset": 451,
+          "format": "B",
+          "scale": 1
+        },
+        "si_gear_ratio": {
+          "offset": 452,
+          "format": "f",
+          "scale": 1.0
+        },
+        "si_wheel_diameter": {
+          "offset": 456,
+          "format": "f",
+          "scale": 1.0
+        },
+        "si_battery_type": {
+          "offset": 460,
+          "format": "B",
+          "scale": 1
+        },
+        "si_battery_cells": {
+          "offset": 461,
+          "format": "B",
+          "scale": 1
+        },
+        "si_battery_ah": {
+          "offset": 462,
+          "format": "f",
+          "scale": 1.0
+        },
+        "si_motor_nl_current": {
+          "offset": 466,
+          "format": "f",
+          "scale": 1.0
+        },
+        "bms.type": {
+          "offset": 470,
+          "format": "B",
+          "scale": 1
+        },
+        "bms.limit_mode": {
+          "offset": 471,
+          "format": "B",
+          "scale": 1
+        },
+        "bms.t_limit_start": {
+          "offset": 472,
+          "format": "h",
+          "scale": 100.0
+        },
+        "bms.t_limit_end": {
+          "offset": 474,
+          "format": "h",
+          "scale": 100.0
+        },
+        "bms.soc_limit_start": {
+          "offset": 476,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "bms.soc_limit_end": {
+          "offset": 478,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "bms.fwd_can_mode": {
+          "offset": 480,
+          "format": "B",
+          "scale": 1
+        }
+      }
+    },
+    "app": {
+      "signature": 486554156,
+      "size": 493,
+      "fields": {
+        "controller_id": {
+          "offset": 4,
+          "format": "B",
+          "scale": 1
+        },
+        "timeout_msec": {
+          "offset": 5,
+          "format": "I",
+          "scale": 1.0
+        },
+        "timeout_brake_current": {
+          "offset": 9,
+          "format": "f",
+          "scale": 1.0
+        },
+        "can_status_rate_1": {
+          "offset": 13,
+          "format": "H",
+          "scale": 1.0
+        },
+        "can_status_rate_2": {
+          "offset": 15,
+          "format": "H",
+          "scale": 1.0
+        },
+        "can_status_msgs_r1": {
+          "offset": 17,
+          "format": "B",
+          "scale": 1
+        },
+        "can_status_msgs_r2": {
+          "offset": 18,
+          "format": "B",
+          "scale": 1
+        },
+        "can_baud_rate": {
+          "offset": 19,
+          "format": "B",
+          "scale": 1
+        },
+        "pairing_done": {
+          "offset": 20,
+          "format": "B",
+          "scale": 1
+        },
+        "permanent_uart_enabled": {
+          "offset": 21,
+          "format": "B",
+          "scale": 1
+        },
+        "shutdown_mode": {
+          "offset": 22,
+          "format": "B",
+          "scale": 1
+        },
+        "can_mode": {
+          "offset": 23,
+          "format": "B",
+          "scale": 1
+        },
+        "uavcan_esc_index": {
+          "offset": 24,
+          "format": "B",
+          "scale": 1
+        },
+        "uavcan_raw_mode": {
+          "offset": 25,
+          "format": "B",
+          "scale": 1
+        },
+        "uavcan_raw_rpm_max": {
+          "offset": 26,
+          "format": "f",
+          "scale": 1.0
+        },
+        "uavcan_status_current_mode": {
+          "offset": 30,
+          "format": "B",
+          "scale": 1
+        },
+        "servo_out_enable": {
+          "offset": 31,
+          "format": "B",
+          "scale": 1
+        },
+        "kill_sw_mode": {
+          "offset": 32,
+          "format": "B",
+          "scale": 1
+        },
+        "app_to_use": {
+          "offset": 33,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.ctrl_type": {
+          "offset": 34,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.pid_max_erpm": {
+          "offset": 35,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.hyst": {
+          "offset": 39,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.pulse_start": {
+          "offset": 43,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.pulse_end": {
+          "offset": 47,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.pulse_center": {
+          "offset": 51,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.median_filter": {
+          "offset": 55,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.safe_start": {
+          "offset": 56,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.throttle_exp": {
+          "offset": 57,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.throttle_exp_brake": {
+          "offset": 61,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.throttle_exp_mode": {
+          "offset": 65,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.ramp_time_pos": {
+          "offset": 66,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.ramp_time_neg": {
+          "offset": 70,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.multi_esc": {
+          "offset": 74,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.tc": {
+          "offset": 75,
+          "format": "B",
+          "scale": 1
+        },
+        "app_ppm_conf.tc_max_diff": {
+          "offset": 76,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.max_erpm_for_dir": {
+          "offset": 80,
+          "format": "h",
+          "scale": 1.0
+        },
+        "app_ppm_conf.smart_rev_max_duty": {
+          "offset": 82,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_ppm_conf.smart_rev_ramp_time": {
+          "offset": 86,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.ctrl_type": {
+          "offset": 90,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.hyst": {
+          "offset": 91,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.voltage_start": {
+          "offset": 95,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage_end": {
+          "offset": 97,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage_min": {
+          "offset": 99,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage_max": {
+          "offset": 101,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage_center": {
+          "offset": 103,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage2_start": {
+          "offset": 105,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.voltage2_end": {
+          "offset": 107,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_adc_conf.use_filter": {
+          "offset": 109,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.safe_start": {
+          "offset": 110,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.buttons": {
+          "offset": 111,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.voltage_inverted": {
+          "offset": 112,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.voltage2_inverted": {
+          "offset": 113,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.throttle_exp": {
+          "offset": 114,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.throttle_exp_brake": {
+          "offset": 118,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.throttle_exp_mode": {
+          "offset": 122,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.ramp_time_pos": {
+          "offset": 123,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.ramp_time_neg": {
+          "offset": 127,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.multi_esc": {
+          "offset": 131,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.tc": {
+          "offset": 132,
+          "format": "B",
+          "scale": 1
+        },
+        "app_adc_conf.tc_max_diff": {
+          "offset": 133,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_adc_conf.update_rate_hz": {
+          "offset": 137,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_uart_baudrate": {
+          "offset": 139,
+          "format": "I",
+          "scale": 1.0
+        },
+        "app_chuk_conf.ctrl_type": {
+          "offset": 143,
+          "format": "B",
+          "scale": 1
+        },
+        "app_chuk_conf.hyst": {
+          "offset": 144,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.ramp_time_pos": {
+          "offset": 148,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.ramp_time_neg": {
+          "offset": 152,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.stick_erpm_per_s_in_cc": {
+          "offset": 156,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.throttle_exp": {
+          "offset": 160,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.throttle_exp_brake": {
+          "offset": 164,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.throttle_exp_mode": {
+          "offset": 168,
+          "format": "B",
+          "scale": 1
+        },
+        "app_chuk_conf.multi_esc": {
+          "offset": 169,
+          "format": "B",
+          "scale": 1
+        },
+        "app_chuk_conf.tc": {
+          "offset": 170,
+          "format": "B",
+          "scale": 1
+        },
+        "app_chuk_conf.tc_max_diff": {
+          "offset": 171,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.use_smart_rev": {
+          "offset": 175,
+          "format": "B",
+          "scale": 1
+        },
+        "app_chuk_conf.smart_rev_max_duty": {
+          "offset": 176,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_chuk_conf.smart_rev_ramp_time": {
+          "offset": 180,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_nrf_conf.speed": {
+          "offset": 184,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.power": {
+          "offset": 185,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.crc_type": {
+          "offset": 186,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.retry_delay": {
+          "offset": 187,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.retries": {
+          "offset": 188,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.channel": {
+          "offset": 189,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.address[0]": {
+          "offset": 190,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.address[1]": {
+          "offset": 191,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.address[2]": {
+          "offset": 192,
+          "format": "B",
+          "scale": 1
+        },
+        "app_nrf_conf.send_crc_ack": {
+          "offset": 193,
+          "format": "B",
+          "scale": 1
+        },
+        "app_balance_conf.pid_mode": {
+          "offset": 194,
+          "format": "B",
+          "scale": 1
+        },
+        "app_balance_conf.kp": {
+          "offset": 195,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.ki": {
+          "offset": 199,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.kd": {
+          "offset": 203,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.kp2": {
+          "offset": 207,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.ki2": {
+          "offset": 211,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.kd2": {
+          "offset": 215,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.hertz": {
+          "offset": 219,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.loop_time_filter": {
+          "offset": 221,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_pitch": {
+          "offset": 223,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_roll": {
+          "offset": 227,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_duty": {
+          "offset": 231,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_adc1": {
+          "offset": 235,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_adc2": {
+          "offset": 239,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_delay_pitch": {
+          "offset": 243,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_delay_roll": {
+          "offset": 245,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_delay_duty": {
+          "offset": 247,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_delay_switch_half": {
+          "offset": 249,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_delay_switch_full": {
+          "offset": 251,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_adc_half_erpm": {
+          "offset": 253,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.fault_is_dual_switch": {
+          "offset": 255,
+          "format": "B",
+          "scale": 1
+        },
+        "app_balance_conf.tiltback_duty_angle": {
+          "offset": 256,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_duty_speed": {
+          "offset": 258,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_duty": {
+          "offset": 260,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_balance_conf.tiltback_hv_angle": {
+          "offset": 262,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_hv_speed": {
+          "offset": 264,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_hv": {
+          "offset": 266,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.tiltback_lv_angle": {
+          "offset": 270,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_lv_speed": {
+          "offset": 272,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_lv": {
+          "offset": 274,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.tiltback_return_speed": {
+          "offset": 278,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.tiltback_constant": {
+          "offset": 280,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.tiltback_constant_erpm": {
+          "offset": 284,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.tiltback_variable": {
+          "offset": 286,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.tiltback_variable_max": {
+          "offset": 290,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.noseangling_speed": {
+          "offset": 294,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_balance_conf.startup_pitch_tolerance": {
+          "offset": 296,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.startup_roll_tolerance": {
+          "offset": 300,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.startup_speed": {
+          "offset": 304,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.deadzone": {
+          "offset": 308,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.multi_esc": {
+          "offset": 312,
+          "format": "B",
+          "scale": 1
+        },
+        "app_balance_conf.yaw_kp": {
+          "offset": 313,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.yaw_ki": {
+          "offset": 317,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.yaw_kd": {
+          "offset": 321,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.roll_steer_kp": {
+          "offset": 325,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.roll_steer_erpm_kp": {
+          "offset": 329,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.brake_current": {
+          "offset": 333,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.brake_timeout": {
+          "offset": 337,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.yaw_current_clamp": {
+          "offset": 339,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.ki_limit": {
+          "offset": 343,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.kd_pt1_lowpass_frequency": {
+          "offset": 347,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.kd_pt1_highpass_frequency": {
+          "offset": 349,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.booster_angle": {
+          "offset": 351,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.booster_ramp": {
+          "offset": 355,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.booster_current": {
+          "offset": 359,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_start_current": {
+          "offset": 363,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_angle_limit": {
+          "offset": 367,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_on_speed": {
+          "offset": 371,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_off_speed": {
+          "offset": 375,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_strength": {
+          "offset": 379,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.torquetilt_filter": {
+          "offset": 383,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_strength": {
+          "offset": 387,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_angle_limit": {
+          "offset": 391,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_start_angle": {
+          "offset": 395,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_start_erpm": {
+          "offset": 399,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_speed": {
+          "offset": 401,
+          "format": "f",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_erpm_boost": {
+          "offset": 405,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_balance_conf.turntilt_erpm_boost_end": {
+          "offset": 407,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_pas_conf.ctrl_type": {
+          "offset": 409,
+          "format": "B",
+          "scale": 1
+        },
+        "app_pas_conf.sensor_type": {
+          "offset": 410,
+          "format": "B",
+          "scale": 1
+        },
+        "app_pas_conf.current_scaling": {
+          "offset": 411,
+          "format": "h",
+          "scale": 1000.0
+        },
+        "app_pas_conf.pedal_rpm_start": {
+          "offset": 413,
+          "format": "h",
+          "scale": 10.0
+        },
+        "app_pas_conf.pedal_rpm_end": {
+          "offset": 415,
+          "format": "h",
+          "scale": 10.0
+        },
+        "app_pas_conf.invert_pedal_direction": {
+          "offset": 417,
+          "format": "B",
+          "scale": 1
+        },
+        "app_pas_conf.magnets": {
+          "offset": 418,
+          "format": "H",
+          "scale": 1.0
+        },
+        "app_pas_conf.use_filter": {
+          "offset": 420,
+          "format": "B",
+          "scale": 1
+        },
+        "app_pas_conf.ramp_time_pos": {
+          "offset": 421,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_pas_conf.ramp_time_neg": {
+          "offset": 423,
+          "format": "h",
+          "scale": 100.0
+        },
+        "app_pas_conf.update_rate_hz": {
+          "offset": 425,
+          "format": "H",
+          "scale": 1.0
+        },
+        "imu_conf.type": {
+          "offset": 427,
+          "format": "B",
+          "scale": 1
+        },
+        "imu_conf.mode": {
+          "offset": 428,
+          "format": "B",
+          "scale": 1
+        },
+        "imu_conf.filter": {
+          "offset": 429,
+          "format": "B",
+          "scale": 1
+        },
+        "imu_conf.accel_lowpass_filter_x": {
+          "offset": 430,
+          "format": "h",
+          "scale": 1.0
+        },
+        "imu_conf.accel_lowpass_filter_y": {
+          "offset": 432,
+          "format": "h",
+          "scale": 1.0
+        },
+        "imu_conf.accel_lowpass_filter_z": {
+          "offset": 434,
+          "format": "h",
+          "scale": 1.0
+        },
+        "imu_conf.gyro_lowpass_filter": {
+          "offset": 436,
+          "format": "h",
+          "scale": 1.0
+        },
+        "imu_conf.sample_rate_hz": {
+          "offset": 438,
+          "format": "H",
+          "scale": 1.0
+        },
+        "imu_conf.use_magnetometer": {
+          "offset": 440,
+          "format": "B",
+          "scale": 1
+        },
+        "imu_conf.accel_confidence_decay": {
+          "offset": 441,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.mahony_kp": {
+          "offset": 445,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.mahony_ki": {
+          "offset": 449,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.madgwick_beta": {
+          "offset": 453,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.rot_roll": {
+          "offset": 457,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.rot_pitch": {
+          "offset": 461,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.rot_yaw": {
+          "offset": 465,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.accel_offsets[0]": {
+          "offset": 469,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.accel_offsets[1]": {
+          "offset": 473,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.accel_offsets[2]": {
+          "offset": 477,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.gyro_offsets[0]": {
+          "offset": 481,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.gyro_offsets[1]": {
+          "offset": 485,
+          "format": "f",
+          "scale": 1.0
+        },
+        "imu_conf.gyro_offsets[2]": {
+          "offset": 489,
+          "format": "f",
+          "scale": 1.0
+        }
+      }
+    }
+  }
+}

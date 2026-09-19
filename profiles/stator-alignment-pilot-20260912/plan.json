@@ -1,0 +1,30 @@
+{
+  "schema": "stator-alignment-v1",
+  "mode": "pilot",
+  "current_a": 0.5,
+  "dwell_s": 0.8,
+  "cooldown_s": 2.0,
+  "limits": {
+    "l_current_max": 2,
+    "l_current_min": -2,
+    "l_abs_current_max": 3,
+    "l_in_current_max": 1,
+    "l_in_current_min": 0,
+    "l_max_duty": 0.1,
+    "l_slow_abs_current": 0,
+    "foc_f_zv": 30000,
+    "foc_mtpa_mode": 0,
+    "foc_fw_current_max": 0,
+    "foc_cc_decoupling": 0
+  },
+  "steps": [
+    {
+      "phase_deg": 150,
+      "direction": "pilot"
+    }
+  ],
+  "commanded_on_time_s": 0.8,
+  "requires_free_fixture": true,
+  "offset_auto_apply": false,
+  "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f"
+}

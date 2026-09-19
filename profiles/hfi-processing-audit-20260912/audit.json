@@ -1,0 +1,458 @@
+{
+  "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+  "motor_commands_sent": false,
+  "calibration_validated": false,
+  "rows": [
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-check-20260912-01\\result.json",
+      "duty": 0.1,
+      "raw_encoder_deg": 207.20687483870967,
+      "production_status": "single_pose_candidate",
+      "qualified": true,
+      "production_axis_deg": 54.034146096189296,
+      "production_concentration": 0.9858839457681435,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 69,
+          "axis_deg": 54.034146096189296,
+          "concentration": 0.9858839457681434,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 69,
+          "axis_deg": 53.95605258440014,
+          "concentration": 0.9852282003049239,
+          "difference_from_production_deg": -0.0780935117891488
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 59,
+          "axis_deg": 54.32706046213797,
+          "concentration": 0.9857328284304786,
+          "difference_from_production_deg": 0.2929143659486755
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 59,
+          "axis_deg": 54.27234066362247,
+          "concentration": 0.9849109572786622,
+          "difference_from_production_deg": 0.2381945674331689
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 50,
+          "axis_deg": 54.21318912499281,
+          "concentration": 0.9873065619915139,
+          "difference_from_production_deg": 0.17904302880350542
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 50,
+          "axis_deg": 54.15771571781986,
+          "concentration": 0.9863647444901035,
+          "difference_from_production_deg": 0.12356962163056551
+        }
+      ],
+      "max_sensitivity_deg": 0.2929143659486755,
+      "mean_plot_inductance_uh": 25.839739376985573,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-check-20260912-02\\result.json",
+      "duty": 0.1,
+      "raw_encoder_deg": 207.2039993263158,
+      "production_status": "single_pose_candidate",
+      "qualified": true,
+      "production_axis_deg": 52.7103556322761,
+      "production_concentration": 0.9794317301089139,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 69,
+          "axis_deg": 52.710355632276105,
+          "concentration": 0.979431730108914,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 69,
+          "axis_deg": 52.86943907275301,
+          "concentration": 0.9787243840438886,
+          "difference_from_production_deg": 0.15908344047690548
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 59,
+          "axis_deg": 52.75419658752493,
+          "concentration": 0.9819980272886124,
+          "difference_from_production_deg": 0.043840955248839464
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 59,
+          "axis_deg": 52.85624697567323,
+          "concentration": 0.9812473783774337,
+          "difference_from_production_deg": 0.14589134339712473
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 49,
+          "axis_deg": 53.008737014630725,
+          "concentration": 0.982161901534663,
+          "difference_from_production_deg": 0.29838138235462
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 49,
+          "axis_deg": 53.225275882808106,
+          "concentration": 0.9819093354678703,
+          "difference_from_production_deg": 0.5149202505320147
+        }
+      ],
+      "max_sensitivity_deg": 0.5149202505320147,
+      "mean_plot_inductance_uh": 25.855214179316654,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-check-20260912-03\\result.json",
+      "duty": 0.1,
+      "raw_encoder_deg": 207.19940166666666,
+      "production_status": "single_pose_candidate",
+      "qualified": true,
+      "production_axis_deg": 53.41475793717185,
+      "production_concentration": 0.9805655859297333,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 68,
+          "axis_deg": 53.41475793717185,
+          "concentration": 0.9805655859297335,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 68,
+          "axis_deg": 53.365687330299366,
+          "concentration": 0.9801540876125164,
+          "difference_from_production_deg": -0.04907060687247622
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 57,
+          "axis_deg": 53.15316899148041,
+          "concentration": 0.9809458633775273,
+          "difference_from_production_deg": -0.2615889456914431
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 57,
+          "axis_deg": 53.14210321899509,
+          "concentration": 0.9814325399456829,
+          "difference_from_production_deg": -0.2726547181767671
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 48,
+          "axis_deg": 52.93050972945506,
+          "concentration": 0.9807230489986052,
+          "difference_from_production_deg": -0.48424820771678867
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 48,
+          "axis_deg": 52.87960421053901,
+          "concentration": 0.9812897087275028,
+          "difference_from_production_deg": -0.5351537266328421
+        }
+      ],
+      "max_sensitivity_deg": 0.5351537266328421,
+      "mean_plot_inductance_uh": 25.693501252394455,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-amplitude-005-20260912-01\\result.json",
+      "duty": 0.05,
+      "raw_encoder_deg": 207.1996325,
+      "production_status": "dft_axis_not_repeatable",
+      "qualified": false,
+      "production_axis_deg": 34.22135941179467,
+      "production_concentration": 0.16159184566411847,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 65,
+          "axis_deg": 34.22135941179467,
+          "concentration": 0.16159184566411844,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 65,
+          "axis_deg": 41.75632010163856,
+          "concentration": 0.10533717912693294,
+          "difference_from_production_deg": 7.534960689843885
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 56,
+          "axis_deg": 38.56854844892586,
+          "concentration": 0.257546900866571,
+          "difference_from_production_deg": 4.347189037131187
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 56,
+          "axis_deg": 52.88045508846206,
+          "concentration": 0.14461880678286393,
+          "difference_from_production_deg": 18.65909567666739
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 46,
+          "axis_deg": 44.66356726102574,
+          "concentration": 0.28732387876111914,
+          "difference_from_production_deg": 10.442207849231067
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 46,
+          "axis_deg": 48.41051497771391,
+          "concentration": 0.16370509195023633,
+          "difference_from_production_deg": 14.189155565919236
+        }
+      ],
+      "max_sensitivity_deg": 18.65909567666739,
+      "mean_plot_inductance_uh": 44.082652844880755,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-amplitude-005-20260912-02\\result.json",
+      "duty": 0.05,
+      "raw_encoder_deg": 207.18833105154638,
+      "production_status": "dft_axis_not_repeatable",
+      "qualified": false,
+      "production_axis_deg": 167.9201103655584,
+      "production_concentration": 0.1496431798661688,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 67,
+          "axis_deg": 167.9201103655584,
+          "concentration": 0.1496431798661688,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 67,
+          "axis_deg": 21.930702920751,
+          "concentration": 0.09623124177547515,
+          "difference_from_production_deg": 34.0105925551926
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 57,
+          "axis_deg": 175.8436252632815,
+          "concentration": 0.18507067813346328,
+          "difference_from_production_deg": 7.923514897723095
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 57,
+          "axis_deg": 24.012236711628276,
+          "concentration": 0.11327231226212127,
+          "difference_from_production_deg": 36.092126346069875
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 48,
+          "axis_deg": 170.39454377540278,
+          "concentration": 0.2117278484332703,
+          "difference_from_production_deg": 2.47443340984438
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 48,
+          "axis_deg": 20.099849867781153,
+          "concentration": 0.08918017718537259,
+          "difference_from_production_deg": 32.17973950222276
+        }
+      ],
+      "max_sensitivity_deg": 36.092126346069875,
+      "mean_plot_inductance_uh": 42.874588087007595,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-amplitude-005-20260912-03\\result.json",
+      "duty": 0.05,
+      "raw_encoder_deg": 207.196656,
+      "production_status": "dft_axis_not_repeatable",
+      "qualified": false,
+      "production_axis_deg": 143.51451936683017,
+      "production_concentration": 0.15956022391452399,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 69,
+          "axis_deg": 143.51451936683017,
+          "concentration": 0.15956022391452399,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 69,
+          "axis_deg": 92.38714760092056,
+          "concentration": 0.059856855292749735,
+          "difference_from_production_deg": -51.127371765909615
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 60,
+          "axis_deg": 147.8516155887703,
+          "concentration": 0.18352075331763035,
+          "difference_from_production_deg": 4.337096221940129
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 60,
+          "axis_deg": 83.46335794767306,
+          "concentration": 0.0298432403255734,
+          "difference_from_production_deg": -60.05116141915711
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 50,
+          "axis_deg": 152.78838693134455,
+          "concentration": 0.136656170966483,
+          "difference_from_production_deg": 9.273867564514376
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 50,
+          "axis_deg": 65.53209735991783,
+          "concentration": 0.09146532720842104,
+          "difference_from_production_deg": -77.98242200691234
+        }
+      ],
+      "max_sensitivity_deg": 77.98242200691234,
+      "mean_plot_inductance_uh": 43.25051474269432,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    },
+    {
+      "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\locked-hfi-amplitude-010-control-20260912-01\\result.json",
+      "duty": 0.1,
+      "raw_encoder_deg": 207.19026546938775,
+      "production_status": "single_pose_candidate",
+      "qualified": true,
+      "production_axis_deg": 53.476702490882246,
+      "production_concentration": 0.9802100339957934,
+      "diagnostic_variants": [
+        {
+          "discard_s": 0.05,
+          "weighted": true,
+          "frames": 69,
+          "axis_deg": 53.476702490882246,
+          "concentration": 0.9802100339957935,
+          "difference_from_production_deg": 0.0
+        },
+        {
+          "discard_s": 0.05,
+          "weighted": false,
+          "frames": 69,
+          "axis_deg": 53.447720280330095,
+          "concentration": 0.9802529388900667,
+          "difference_from_production_deg": -0.028982210552157994
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": true,
+          "frames": 59,
+          "axis_deg": 53.62214526751168,
+          "concentration": 0.9794616228205276,
+          "difference_from_production_deg": 0.14544277662943728
+        },
+        {
+          "discard_s": 0.1,
+          "weighted": false,
+          "frames": 59,
+          "axis_deg": 53.61216067021775,
+          "concentration": 0.9793860081149457,
+          "difference_from_production_deg": 0.13545817933550097
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": true,
+          "frames": 49,
+          "axis_deg": 54.0492680663594,
+          "concentration": 0.97950339808533,
+          "difference_from_production_deg": 0.5725655754771566
+        },
+        {
+          "discard_s": 0.15,
+          "weighted": false,
+          "frames": 49,
+          "axis_deg": 53.94883274237983,
+          "concentration": 0.9794520517187397,
+          "difference_from_production_deg": 0.4721302514975889
+        }
+      ],
+      "max_sensitivity_deg": 0.5725655754771566,
+      "mean_plot_inductance_uh": 25.807424810868277,
+      "calibration_validated": false,
+      "offset_applied": false,
+      "warning": "Alternative windows are diagnostics, not permission to accept a rejected capture"
+    }
+  ],
+  "synthetic_max_exact_axis_error_deg": 7.140101843106095e-10,
+  "synthetic_max_approximate_axis_error_deg": 0.29075057462036114,
+  "limitation": "Synthetic model checks conventions, not real hardware or exact firmware binary identity"
+}

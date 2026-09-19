@@ -1,0 +1,31 @@
+{
+  "test": {
+    "current_steps": [2.0, 5.0, 10.0],
+    "hold_s": 1.5,
+    "cooldown_s": 1.0,
+    "expected_direction": 0
+  },
+  "variants": [
+    {
+      "name": "mtpa-off_i25_b25",
+      "foc_mtpa_mode": 0,
+      "phase_current_max": 25.0,
+      "input_current_max": 25.0,
+      "abs_current_max": 45.0
+    },
+    {
+      "name": "mtpa-on_i25_b25",
+      "foc_mtpa_mode": 1,
+      "phase_current_max": 25.0,
+      "input_current_max": 25.0,
+      "abs_current_max": 45.0
+    },
+    {
+      "name": "mtpa-on_i50_b50",
+      "foc_mtpa_mode": 1,
+      "phase_current_max": 50.0,
+      "input_current_max": 50.0,
+      "abs_current_max": 65.0
+    }
+  ]
+}

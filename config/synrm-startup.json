@@ -1,0 +1,17 @@
+{
+  "synrm_zero_flux": true,
+  "max_trials": 16,
+  "max_duration_s": 300,
+  "test_current_a": 3,
+  "phase_limit_a": 5,
+  "input_limit_a": 3,
+  "trip_current_a": 8,
+  "max_erpm": 600,
+  "allow_missing_motor_temp": true,
+  "trial_s": 2,
+  "trial_energy_j": 12,
+  "total_energy_j": 60,
+  "cooldown_s": 4,
+  "offset_deltas": [0, -15, 15, -30, 30],
+  "speed_targets": [150, 300]
+}

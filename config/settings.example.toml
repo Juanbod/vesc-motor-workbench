@@ -1,0 +1,21 @@
+[serial]
+port = "COM3"
+baudrate = 115200
+timeout_s = 0.10
+
+[paths]
+incoming = "vesc-test-profiles"
+staged = "profiles/staged"
+applied = "profiles/applied"
+logs = "logs"
+
+[apply]
+backend = "dry-run"
+require_armed = true
+vesc_tool_path = 'C:\Users\jando\Downloads\Telegram Desktop\vesc_tool_7.00.exe'
+
+[safety]
+max_erpm = 1000
+max_erpm_delta = 500
+sample_period_s = 0.05
+default_current_steps = [0.5, 1.0, 1.5]

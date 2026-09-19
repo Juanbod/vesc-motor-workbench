@@ -1,0 +1,23 @@
+{
+  "synrm_zero_flux": true,
+  "extended_diagnostics": true,
+  "qualify_speed": true,
+  "max_trials": 3,
+  "max_duration_s": 120,
+  "test_current_a": 12,
+  "phase_limit_a": 15,
+  "input_limit_a": 5,
+  "trip_current_a": 18,
+  "max_erpm": 600,
+  "allow_missing_motor_temp": true,
+  "ramp_s": 1,
+  "trial_s": 5,
+  "stall_s": 1.5,
+  "trial_energy_j": 100,
+  "total_energy_j": 300,
+  "trial_i2t": 650,
+  "cooldown_s": 8,
+  "offset_deltas": [90],
+  "speed_targets": [60],
+  "speed_hold_s": 5
+}
