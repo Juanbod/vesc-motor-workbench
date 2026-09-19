@@ -1,0 +1,108 @@
+{
+  "state": "recovery_required",
+  "simulated": false,
+  "energy_j": 9.276779635192797,
+  "results": [
+    {
+      "name": "diagnostic",
+      "changes": {
+        "foc_motor_flux_linkage": 0,
+        "foc_sat_comp_mode": 0,
+        "foc_observer_type": 0,
+        "l_current_max": 15,
+        "l_current_min": -15,
+        "l_in_current_max": 5,
+        "l_in_current_min": 0,
+        "l_abs_current_max": 18,
+        "l_min_erpm": -1600,
+        "l_max_erpm": 1600,
+        "l_max_duty": 0.35,
+        "s_pid_min_erpm": 30,
+        "s_pid_allow_braking": 0,
+        "s_pid_ramp_erpms_s": 600,
+        "foc_speed_soure": 0,
+        "foc_mtpa_mode": 1,
+        "foc_encoder_offset": 357.527648925781,
+        "s_pid_kp": 0.064,
+        "s_pid_ki": 0.04
+      },
+      "stage": "speed",
+      "ok": true,
+      "start_angle": 348.332512,
+      "signed_turns": 40.17413332222222,
+      "status": "completed",
+      "startup_s": null,
+      "energy_j": 9.276779635192797,
+      "i2t": 109.90323909358582,
+      "turns": 40.17413332222222,
+      "samples": 189,
+      "duration_s": 5.018181200000981,
+      "max_measured_current_a": 7.043557339867405,
+      "rmse_erpm": 480.748315711915,
+      "rms_current_a": 4.680606108718565,
+      "speed_steps": [
+        {
+          "target_erpm": 1200,
+          "observed_s": 4.991851899998437,
+          "evaluation_s": 2.473882699996466,
+          "mean_erpm": 1220.9539992210232,
+          "min_erpm": 1206.1126000174702,
+          "max_erpm": 1249.3870885734352,
+          "bias_erpm": 20.953999221023302,
+          "rmse_erpm": 22.840185876445453,
+          "peak_error_erpm": 49.38708857343522,
+          "drift_erpm_s": -11.167752421130778,
+          "fraction_in_tolerance": 1.0,
+          "tolerance_erpm": 120.0,
+          "qualified": true
+        }
+      ],
+      "speed_qualified": true,
+      "observer_comparison": {
+        "valid": true,
+        "samples": 94,
+        "evaluation_s": 2.473882699996466,
+        "mean_error_deg": null,
+        "mean_error_reliable": false,
+        "resultant": 0.08475016516206692,
+        "p95_absolute_error_deg": 169.25852,
+        "p95_residual_deg": 170.6020977941774,
+        "min_error_deg": -175.71162,
+        "max_error_deg": 179.25712,
+        "mean_encoder_erpm": 1220.9539992210232,
+        "passes_angle_screen": false,
+        "sensorless_validated": false
+      }
+    }
+  ],
+  "best": null,
+  "startup_coverage": {
+    "bins": 12,
+    "required_per_bin": 3,
+    "successful_starts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "failures": 0,
+    "same_candidate": true,
+    "qualified": false,
+    "scope": "Observed no-load starts only; not a guarantee under all loads or temperatures"
+  },
+  "reason": null,
+  "cleanup": {
+    "motor_restored": false,
+    "app_output": "disabled until power cycle",
+    "standstill_timeout_s": 30,
+    "error": "Position sampling gap could alias rotor motion"
+  }
+}

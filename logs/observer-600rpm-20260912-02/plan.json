@@ -1,0 +1,60 @@
+{
+  "arguments": {
+    "output": "logs/observer-600rpm-20260912-02",
+    "plan": "C:\\Users\\jando\\Documents\\Codex\\2026-08-12\\files-mentioned-by-the-user-txt\\high-speed-20260912\\600rpm-ramp600.json",
+    "openloop_erpm": null,
+    "speed": true,
+    "observer_error": true,
+    "kp": 0.064,
+    "ki": 0.04,
+    "current": null,
+    "offset_delta": null,
+    "offset_absolute": 357.527648925781,
+    "baseline": "C:\\Users\\jando\\Documents\\Codex\\2026-08-12\\files-mentioned-by-the-user-txt\\high-speed-20260912\\baseline-normalized\\mcconf.bin",
+    "repeats": 1,
+    "mtpa": 1,
+    "direction": 1,
+    "inverted": null,
+    "armed": true,
+    "simulate": false
+  },
+  "effective_plan": {
+    "synrm_zero_flux": true,
+    "extended_diagnostics": true,
+    "qualify_speed": true,
+    "max_trials": 1,
+    "max_duration_s": 150,
+    "test_current_a": 12,
+    "phase_limit_a": 15,
+    "input_limit_a": 5,
+    "trip_current_a": 18,
+    "max_erpm": 1600,
+    "max_duty": 0.35,
+    "min_voltage": 21,
+    "max_voltage": 29,
+    "max_mos_temp": 55,
+    "max_motor_temp": 65,
+    "allow_missing_motor_temp": true,
+    "trial_energy_j": 100,
+    "total_energy_j": 300,
+    "trial_i2t": 650,
+    "sample_s": 0.025,
+    "ramp_s": 1,
+    "trial_s": 5,
+    "stall_s": 1.5,
+    "settle_timeout_s": 15,
+    "rollback_timeout_s": 30,
+    "cooldown_s": 8,
+    "startup_erpm": 120,
+    "direction": 1,
+    "repeats": 3,
+    "offset_deltas": [
+      90
+    ],
+    "speed_targets": [
+      1200
+    ],
+    "speed_hold_s": 5,
+    "speed_ramp_erpm_s": 600
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": true,
+  "timing_limit_s": 0.006,
+  "stage": "speed_2200rpm_5a_hold",
+  "sample_pause_s": 0.002,
+  "coast_cadence": true,
+  "duration_s": 60,
+  "errors": [],
+  "maximum_phase_s": {
+    "interlock_s": 0.0012533999979496002,
+    "send_s": 0.0006109999994805548,
+    "sleep_s": 0.0037495999968086835,
+    "read_s": 0.0032628999979351647,
+    "validation_logging_s": 0.0004434000002220273,
+    "total_s": 0.005654199998389231
+  },
+  "slow_command_intervals": [],
+  "maximum_gc_pause_s": 0,
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "baseline_unchanged": true,
+  "samples": 18621,
+  "maximum_command_interval_s": 0.005880500000785105,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 0,
+  "maximum_get_values_latency_s": 0.003262700000050245
+}

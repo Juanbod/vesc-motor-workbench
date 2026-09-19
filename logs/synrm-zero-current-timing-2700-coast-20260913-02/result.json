@@ -1,0 +1,161 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": false,
+  "timing_limit_s": 0.005,
+  "stage": "speed_2700rpm_5a_hold",
+  "sample_pause_s": 0.001,
+  "coast_cadence": true,
+  "duration_s": 60,
+  "errors": [],
+  "maximum_phase_s": {
+    "interlock_s": 0.0028879000019514933,
+    "send_s": 0.003997499999968568,
+    "sleep_s": 0.003421999997954117,
+    "read_s": 0.00400900000022375,
+    "validation_logging_s": 0.002473299999110168,
+    "total_s": 0.005887399998755427
+  },
+  "slow_command_intervals": [
+    {
+      "t": 19828.3237388,
+      "interval_s": 0.00565900000219699,
+      "previous_cycle": {
+        "interlock_s": 0.0002831999991030898,
+        "send_s": 0.00354440000228351,
+        "sleep_s": 0.001003999997919891,
+        "read_s": 0.0005874999988009222,
+        "validation_logging_s": 9.610000051907264e-05,
+        "total_s": 0.0055151999986264855
+      },
+      "current_interlock_s": 0.0004194000030111056
+    },
+    {
+      "t": 19828.5224986,
+      "interval_s": 0.005528499998035841,
+      "previous_cycle": {
+        "interlock_s": 0.00027690000206348486,
+        "send_s": 0.003516599997965386,
+        "sleep_s": 0.0010026000018115155,
+        "read_s": 0.0005534999982046429,
+        "validation_logging_s": 8.240000170189887e-05,
+        "total_s": 0.005432000001746928
+      },
+      "current_interlock_s": 0.0003662999988591764
+    },
+    {
+      "t": 19830.0221428,
+      "interval_s": 0.0056834999995771796,
+      "previous_cycle": {
+        "interlock_s": 0.00032110000029206276,
+        "send_s": 0.0037295000001904555,
+        "sleep_s": 0.0010032999998657033,
+        "read_s": 0.0005502999993041158,
+        "validation_logging_s": 8.629999865661375e-05,
+        "total_s": 0.005690499998308951
+      },
+      "current_interlock_s": 0.000307400001474889
+    },
+    {
+      "t": 19830.5719911,
+      "interval_s": 0.005021300003136275,
+      "previous_cycle": {
+        "interlock_s": 0.0002983999984280672,
+        "send_s": 0.00035480000224197283,
+        "sleep_s": 0.003421999997954117,
+        "read_s": 0.0005516000019269995,
+        "validation_logging_s": 0.00011679999806801789,
+        "total_s": 0.004743599998619175
+      },
+      "current_interlock_s": 0.0005680000031134114
+    },
+    {
+      "t": 19830.7369195,
+      "interval_s": 0.0051065999978163745,
+      "previous_cycle": {
+        "interlock_s": 0.00030980000155977905,
+        "send_s": 0.00019149999934597872,
+        "sleep_s": 0.001001900000119349,
+        "read_s": 0.0034870999988925178,
+        "validation_logging_s": 8.81000014487654e-05,
+        "total_s": 0.00507840000136639
+      },
+      "current_interlock_s": 0.0003311000000394415
+    },
+    {
+      "t": 19830.9416898,
+      "interval_s": 0.006003300000884337,
+      "previous_cycle": {
+        "interlock_s": 0.000274800000624964,
+        "send_s": 0.003997499999968568,
+        "sleep_s": 0.0010029000004578847,
+        "read_s": 0.0005189999974390958,
+        "validation_logging_s": 9.32000002649147e-05,
+        "total_s": 0.005887399998755427
+      },
+      "current_interlock_s": 0.00038330000097630545
+    },
+    {
+      "t": 19834.6994992,
+      "interval_s": 0.005517400000826456,
+      "previous_cycle": {
+        "interlock_s": 0.00029119999817339703,
+        "send_s": 0.00011939999967580661,
+        "sleep_s": 0.0010024000002886169,
+        "read_s": 0.00400900000022375,
+        "validation_logging_s": 7.800000093993731e-05,
+        "total_s": 0.005499999999301508
+      },
+      "current_interlock_s": 0.00030160000096657313
+    },
+    {
+      "t": 19834.9892943,
+      "interval_s": 0.005074300002888776,
+      "previous_cycle": {
+        "interlock_s": 0.0003087999975832645,
+        "send_s": 0.00300250000145752,
+        "sleep_s": 0.0010024000002886169,
+        "read_s": 0.0006256999986362644,
+        "validation_logging_s": 8.05000017862767e-05,
+        "total_s": 0.005019899999751942
+      },
+      "current_interlock_s": 0.00035600000046542846
+    },
+    {
+      "t": 19835.1490832,
+      "interval_s": 0.005714300001272932,
+      "previous_cycle": {
+        "interlock_s": 0.00029240000003483146,
+        "send_s": 0.003544099999999162,
+        "sleep_s": 0.0010036999992735218,
+        "read_s": 0.0005660999995598104,
+        "validation_logging_s": 8.890000026440248e-05,
+        "total_s": 0.005495199999131728
+      },
+      "current_interlock_s": 0.0005042000011599157
+    }
+  ],
+  "maximum_gc_pause_s": 0,
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "precise_short_pause": true,
+  "baseline_unchanged": true,
+  "samples": 31779,
+  "maximum_command_interval_s": 0.006003300000884337,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 9,
+  "maximum_get_values_latency_s": 0.00400880000233883
+}

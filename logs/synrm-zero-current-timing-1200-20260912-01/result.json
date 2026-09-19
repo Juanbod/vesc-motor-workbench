@@ -1,0 +1,16 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": true,
+  "timing_limit_s": 0.01,
+  "stage": "speed_1200rpm_5a_smooth",
+  "sample_pause_s": 0.002,
+  "errors": [],
+  "baseline_unchanged": true,
+  "samples": 4038,
+  "maximum_command_interval_s": 0.006214699998963624,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 0,
+  "maximum_get_values_latency_s": 0.0015604000000166707
+}

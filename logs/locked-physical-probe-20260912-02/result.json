@@ -1,0 +1,44 @@
+{
+  "test": "locked_fixed_phase_0p5a_40ms",
+  "simulated": false,
+  "pulse_sent": false,
+  "motor_restored": false,
+  "motor_write_attempted": true,
+  "current_returned_to_zero": false,
+  "inductance_measured": false,
+  "offset_calibrated": false,
+  "limits": {
+    "l_current_max": 2,
+    "l_current_min": -2,
+    "l_abs_current_max": 3,
+    "l_in_current_max": 1,
+    "l_in_current_min": 0,
+    "l_max_duty": 0.1
+  },
+  "measured_current_threshold_a": 1.5,
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "baseline_sha256": "44842c255c068e60ef3bccd71399ad8f96b03824f30776e05097921be933b589",
+  "command_usage_verified": true,
+  "pulse_consumed_by_interlock": false,
+  "motor_unchanged": false,
+  "failure": "Timed out waiting for VESC packet.",
+  "terminal_output": [
+    {
+      "t": 56222.1679689,
+      "text": "-> rotor_lock_openloop"
+    },
+    {
+      "t": 56222.1682382,
+      "text": "This command requires three arguments. [current time angle]"
+    }
+  ],
+  "peak_sampled_current_a": 0,
+  "sample_count": 26,
+  "nonzero_current_observed": false,
+  "physical_excitation_verified": false,
+  "ok": false
+}

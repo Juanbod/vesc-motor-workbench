@@ -1,0 +1,28 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "flash_writes": false,
+  "qualified_for_powered_control": false,
+  "tick_hz_assumed": 10000,
+  "ok": false,
+  "errors": [
+    "Counter telemetry gap exceeds bound"
+  ],
+  "samples": 308,
+  "capability": {
+    "excitation_sent": false,
+    "configuration_writes": false,
+    "code_writes": false,
+    "runtime_started": false,
+    "protocol_reference": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+    "stored_code_bytes": 0,
+    "runtime_response": true,
+    "errors": [],
+    "storage_header_hex": "820000000000000000",
+    "runtime_stats_hex": "860eed0004081d000000",
+    "interpretation": "Runtime replied; no program was started or replaced"
+  },
+  "possible_distance_scales": [
+    0.006208385806530714
+  ]
+}

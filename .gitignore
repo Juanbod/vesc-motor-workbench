@@ -6,7 +6,7 @@ __pycache__/
 .ruff_cache/
 .mypy_cache/
 .vesc-workbench/
-logs/
+logs/**/*.jsonl
 profiles/staged/*
 profiles/applied/*
 raw-config-backups/*

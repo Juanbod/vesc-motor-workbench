@@ -1,0 +1,58 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": true,
+  "timing_limit_s": 0.025,
+  "stage": "speed_3700rpm_7a_counter_return_coast",
+  "sample_pause_s": 0.002,
+  "coast_cadence": false,
+  "duration_s": 60,
+  "errors": [],
+  "maximum_phase_s": {
+    "interlock_s": 0.0019935999989684206,
+    "send_s": 0.001959499997610692,
+    "sleep_s": 0.005955100001301616,
+    "read_s": 0.003975400002673268,
+    "validation_logging_s": 0.0003581000019039493,
+    "total_s": 0.006861800000478979
+  },
+  "slow_command_intervals": [],
+  "maximum_gc_pause_s": 0,
+  "queued_logging": true,
+  "battery_source": {
+    "schema": "bench-battery-v1",
+    "source": "battery",
+    "series_cells": 6,
+    "parallel_cells": 1,
+    "capacity_ah": 4.5,
+    "confirmed_by_user": true,
+    "reported_date": "2026-09-13",
+    "chemistry": null,
+    "charge_current_rating_a": null,
+    "discharge_current_rating_a": null,
+    "bms_capability": null,
+    "scope": "Small bounded return-current diagnostic only; capacity is not a current rating"
+  },
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "logs_drained": true,
+  "baseline_unchanged": true,
+  "samples": 18675,
+  "maximum_command_interval_s": 0.006889600001159124,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 0,
+  "maximum_get_values_latency_s": 0.003952600000047823
+}

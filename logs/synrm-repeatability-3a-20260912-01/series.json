@@ -1,0 +1,28 @@
+{
+  "schema": "synrm-repeatability-v1",
+  "status": "stopped",
+  "ok": false,
+  "maximum_trials": 3,
+  "current_ceiling_a": 3,
+  "maximum_powered_s": 12,
+  "maximum_i2t_a2s": 108,
+  "maximum_input_energy_j": 36,
+  "minimum_quiet_cooldown_s": 8,
+  "trials": [
+    {
+      "path": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-repeatability-3a-20260912-01\\trial-01",
+      "ok": false,
+      "status": "aborted",
+      "excitation_sent": false,
+      "independent_zero_verified": true,
+      "final_deg": 11.359863
+    }
+  ],
+  "errors": [
+    "Trial 1 did not qualify: aborted; ['Rotor moved outside the reviewed starting-pose window']"
+  ],
+  "active_trial": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-repeatability-3a-20260912-01\\trial-01",
+  "total_powered_s": 0,
+  "total_i2t_a2s": 0,
+  "total_input_energy_j": 0
+}

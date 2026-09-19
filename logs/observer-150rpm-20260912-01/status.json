@@ -1,0 +1,106 @@
+{
+  "state": "completed",
+  "simulated": false,
+  "energy_j": 3.6757431647980705,
+  "results": [
+    {
+      "name": "diagnostic",
+      "changes": {
+        "foc_motor_flux_linkage": 0,
+        "foc_sat_comp_mode": 0,
+        "foc_observer_type": 0,
+        "l_current_max": 15,
+        "l_current_min": -15,
+        "l_in_current_max": 5,
+        "l_in_current_min": 0,
+        "l_abs_current_max": 18,
+        "l_min_erpm": -600,
+        "l_max_erpm": 600,
+        "l_max_duty": 0.35,
+        "s_pid_min_erpm": 30,
+        "s_pid_allow_braking": 0,
+        "s_pid_ramp_erpms_s": 400,
+        "foc_speed_soure": 0,
+        "foc_mtpa_mode": 1,
+        "foc_encoder_offset": 357.527648925781,
+        "s_pid_kp": 0.064,
+        "s_pid_ki": 0.04
+      },
+      "stage": "speed",
+      "ok": true,
+      "start_angle": 353.45216,
+      "signed_turns": 11.332458466666663,
+      "status": "completed",
+      "startup_s": null,
+      "energy_j": 3.6757431647980705,
+      "i2t": 32.65706701141471,
+      "turns": 11.332458466666663,
+      "samples": 190,
+      "duration_s": 5.020242999999027,
+      "max_measured_current_a": 5.967997989275801,
+      "rmse_erpm": 91.51411462085139,
+      "rms_current_a": 2.5540074805149486,
+      "speed_steps": [
+        {
+          "target_erpm": 300,
+          "observed_s": 4.993570300001011,
+          "evaluation_s": 2.4874116999999387,
+          "mean_erpm": 302.36878883545614,
+          "min_erpm": 299.58880021693426,
+          "max_erpm": 305.8440400077026,
+          "bias_erpm": 2.3687888354561473,
+          "rmse_erpm": 2.6267910455218932,
+          "peak_error_erpm": 5.844040007702574,
+          "drift_erpm_s": -0.7515029087353658,
+          "fraction_in_tolerance": 1.0,
+          "tolerance_erpm": 30.0,
+          "qualified": true
+        }
+      ],
+      "speed_qualified": true,
+      "observer_comparison": {
+        "valid": true,
+        "samples": 95,
+        "evaluation_s": 2.4874116999999387,
+        "mean_error_deg": -168.05093572071212,
+        "resultant": 0.033893279807165444,
+        "p95_absolute_error_deg": 168.92356,
+        "p95_residual_deg": 164.76346427928786,
+        "min_error_deg": -178.82434,
+        "max_error_deg": 169.3733,
+        "mean_encoder_erpm": 302.36878883545614,
+        "passes_angle_screen": false,
+        "sensorless_validated": false
+      }
+    }
+  ],
+  "best": null,
+  "startup_coverage": {
+    "bins": 12,
+    "required_per_bin": 3,
+    "successful_starts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "failures": 0,
+    "same_candidate": true,
+    "qualified": false,
+    "scope": "Observed no-load starts only; not a guarantee under all loads or temperatures"
+  },
+  "reason": null,
+  "cleanup": {
+    "motor_restored": true,
+    "app_output": "disabled until power cycle",
+    "standstill_timeout_s": 30
+  }
+}

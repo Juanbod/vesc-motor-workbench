@@ -1,0 +1,14 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "code_writes": false,
+  "runtime_started": false,
+  "protocol_reference": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+  "stored_code_bytes": 0,
+  "runtime_response": false,
+  "errors": [
+    "Timed out waiting for VESC packet."
+  ],
+  "storage_header_hex": "820000000000000000",
+  "interpretation": "No runtime reply: inactive runtime or unsupported build; absence alone is inconclusive"
+}

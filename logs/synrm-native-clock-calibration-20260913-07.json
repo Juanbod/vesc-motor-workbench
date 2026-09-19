@@ -1,0 +1,16 @@
+{
+  "tick_hz_lower": 10036.919372219243,
+  "tick_hz_upper": 10042.437468032971,
+  "tick_hz_estimate": 10039.678420126107,
+  "checked_windows": 133,
+  "samples": 3315,
+  "host_span_s": 60.013359099997615,
+  "relative_interval_width": 0.0005497798287591405,
+  "nominal_10000hz_consistent": false,
+  "scope": "Observed stationary bench interval; not a temperature-wide clock certification",
+  "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-native-clock-source-20260913-07",
+  "source_sha256": "25cd0b52c115da705bf158b7d92316ef44cdce106fc7fcffd458a30b0cd65139",
+  "excitation_sent": false,
+  "prior_failed_probe_reclassified": false,
+  "qualified_for_powered_control": false
+}

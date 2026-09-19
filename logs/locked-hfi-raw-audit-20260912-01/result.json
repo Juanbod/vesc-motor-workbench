@@ -1,0 +1,93 @@
+{
+  "test": "stock_hfi_locked",
+  "plot_mode": 2,
+  "duty": 0.05,
+  "excitation_sent": true,
+  "baseline_restored": true,
+  "no_faults": true,
+  "offset_applied": false,
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+  "dispatch_t": 847.1101192,
+  "command": "measure_ind 0.050",
+  "measurement_response": {
+    "t": 847.5190575,
+    "text": "Inductance: 38.24 uH, ld_lq_diff: 20.81 uH (0.73 A)"
+  },
+  "plot_disabled": true,
+  "zero_current_verified": true,
+  "app_unchanged": true,
+  "analysis": {
+    "full_curves": 2,
+    "accepted_curves": [],
+    "rejected_curves": [
+      "Weak/non-sinusoidal HFI response: {'min_l_axis_deg': 54.33989253501116, 'l_min_h': 2.810319510988163e-05, 'l_max_h': 3.543164074354832e-05, 'saliency': 0.11534531466442853, 'relative_fit_error': 3.1569005757212305, 'start_t': 847.1244367, 'end_t': 847.2709891, 'min_delta_i_a': 0.09126478433609009, 'max_delta_i_a': 1.2672557830810547}",
+      "Invalid/stale raw inductance or delta-current sample"
+    ],
+    "candidate": null,
+    "applied": false,
+    "ratio_direction_independently_validated": false,
+    "assumptions": {
+      "encoder_ratio": 2.0,
+      "encoder_inverted": false,
+      "d_axis": "minimum_inductance",
+      "raw_encoder_deg": 207.1756458556701
+    },
+    "status": "insufficient_or_invalid_data"
+  },
+  "errors": [],
+  "terminal_output": [
+    {
+      "t": 845.6087833,
+      "text": "-> measure_ind"
+    },
+    {
+      "t": 845.6090368,
+      "text": "This command requires one argument. [duty]"
+    },
+    {
+      "t": 845.6095159,
+      "text": "-> foc_plot_hfi_en"
+    },
+    {
+      "t": 845.6096887,
+      "text": "This command requires one argument."
+    },
+    {
+      "t": 847.1096459,
+      "text": "-> foc_plot_hfi_en 2"
+    },
+    {
+      "t": 847.110017,
+      "text": "HFI plot enabled"
+    },
+    {
+      "t": 847.1116046,
+      "text": "-> measure_ind 0.050"
+    },
+    {
+      "t": 847.1117269,
+      "text": "Measuring inductance..."
+    },
+    {
+      "t": 847.5190575,
+      "text": "Inductance: 38.24 uH, ld_lq_diff: 20.81 uH (0.73 A)"
+    },
+    {
+      "t": 849.018736,
+      "text": "-> foc_plot_hfi_en 0"
+    },
+    {
+      "t": 849.0188391,
+      "text": "HFI plot disabled"
+    }
+  ],
+  "elapsed_s": 4.417902099999992,
+  "sampled_peak_current_a": 0.53,
+  "encoder_span_deg": 0.26366400000000567,
+  "ok": false
+}

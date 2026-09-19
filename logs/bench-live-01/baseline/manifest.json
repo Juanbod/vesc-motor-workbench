@@ -1,0 +1,17 @@
+{
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "files": {
+    "motor": {
+      "path": "mcconf.bin",
+      "sha256": "34f8a5fc8195884d9de8402af2d230a5b86c05694ab3b89de1eb33f5c1cba678"
+    },
+    "app": {
+      "path": "appconf.bin",
+      "sha256": "d10fbae6145cc7a47ce8d1bb65014facb14ea7fb822e5378d1ae79abd16873b0"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "excitation_sent": false,
+  "flash_writes": false,
+  "configuration_writes": false,
+  "expression": "(+ 1 2)",
+  "stored_code_bytes": 0,
+  "arithmetic_acknowledged": true
+}

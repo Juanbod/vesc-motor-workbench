@@ -1,0 +1,134 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": false,
+  "timing_limit_s": 0.005,
+  "stage": "speed_2700rpm_5a_hold",
+  "sample_pause_s": 0.001,
+  "coast_cadence": true,
+  "duration_s": 60,
+  "errors": [],
+  "maximum_phase_s": {
+    "interlock_s": 0.0018502999992051627,
+    "send_s": 0.0028882000005978625,
+    "sleep_s": 0.004045600002427818,
+    "read_s": 0.0030072000008658506,
+    "validation_logging_s": 0.0010756999981822446,
+    "total_s": 0.005641899999318412
+  },
+  "slow_command_intervals": [
+    {
+      "t": 19602.6622575,
+      "interval_s": 0.005004300001019146,
+      "previous_cycle": {
+        "interlock_s": 0.00037510000038309954,
+        "send_s": 0.00011920000179088674,
+        "sleep_s": 0.0038425999991886783,
+        "read_s": 0.0005584999998973217,
+        "validation_logging_s": 0.00010169999950448982,
+        "total_s": 0.004997100000764476
+      },
+      "current_interlock_s": 0.000374700000975281
+    },
+    {
+      "t": 19605.123136,
+      "interval_s": 0.005634399996779393,
+      "previous_cycle": {
+        "interlock_s": 0.00031460000172955915,
+        "send_s": 8.679999882588163e-05,
+        "sleep_s": 0.002223700001195539,
+        "read_s": 0.002933899999334244,
+        "validation_logging_s": 8.289999823318794e-05,
+        "total_s": 0.005641899999318412
+      },
+      "current_interlock_s": 0.00030109999715932645
+    },
+    {
+      "t": 19606.1613077,
+      "interval_s": 0.005101700000523124,
+      "previous_cycle": {
+        "interlock_s": 0.00023940000028233044,
+        "send_s": 7.399999958579428e-05,
+        "sleep_s": 0.004045600002427818,
+        "read_s": 0.0005835999982082285,
+        "validation_logging_s": 8.460000026389025e-05,
+        "total_s": 0.005027200000768062
+      },
+      "current_interlock_s": 0.0003071999999519903
+    },
+    {
+      "t": 19612.2086777,
+      "interval_s": 0.005137500000273576,
+      "previous_cycle": {
+        "interlock_s": 0.00040079999962472357,
+        "send_s": 0.00029210000138846226,
+        "sleep_s": 0.0037932999985059723,
+        "read_s": 0.0006767000013496727,
+        "validation_logging_s": 7.749999713269062e-05,
+        "total_s": 0.0052403999980015215
+      },
+      "current_interlock_s": 0.00029210000138846226
+    },
+    {
+      "t": 19637.5097622,
+      "interval_s": 0.005011400000512367,
+      "previous_cycle": {
+        "interlock_s": 0.000420000000303844,
+        "send_s": 9.420000060345046e-05,
+        "sleep_s": 0.002778599999146536,
+        "read_s": 0.0016699000007065479,
+        "validation_logging_s": 9.030000001075678e-05,
+        "total_s": 0.005053000000771135
+      },
+      "current_interlock_s": 0.00037030000021331944
+    },
+    {
+      "t": 19641.152491,
+      "interval_s": 0.005023100002290448,
+      "previous_cycle": {
+        "interlock_s": 0.00029179999910411425,
+        "send_s": 0.00014460000238614157,
+        "sleep_s": 0.0015375000002677552,
+        "read_s": 0.002941599999758182,
+        "validation_logging_s": 8.669999806443229e-05,
+        "total_s": 0.0050021999995806254
+      },
+      "current_interlock_s": 0.00030640000113635324
+    },
+    {
+      "t": 19642.0159731,
+      "interval_s": 0.0053895999990345445,
+      "previous_cycle": {
+        "interlock_s": 0.000283499997749459,
+        "send_s": 0.0028882000005978625,
+        "sleep_s": 0.0015260000000125729,
+        "read_s": 0.0005539000012504403,
+        "validation_logging_s": 8.129999696393497e-05,
+        "total_s": 0.00533289999657427
+      },
+      "current_interlock_s": 0.00033379999877070077
+    }
+  ],
+  "maximum_gc_pause_s": 0,
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "baseline_unchanged": true,
+  "samples": 28452,
+  "maximum_command_interval_s": 0.005634399996779393,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 7,
+  "maximum_get_values_latency_s": 0.0030068999985815026
+}

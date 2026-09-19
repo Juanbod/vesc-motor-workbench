@@ -1,0 +1,32 @@
+{
+  "name": "speed_gain1",
+  "changes": {
+    "l_current_max": 5,
+    "l_current_min": -5,
+    "l_in_current_max": 3,
+    "l_in_current_min": 0,
+    "l_abs_current_max": 8,
+    "l_min_erpm": -600,
+    "l_max_erpm": 600,
+    "l_max_duty": 0.35,
+    "s_pid_min_erpm": 30,
+    "s_pid_allow_braking": 0,
+    "s_pid_ramp_erpms_s": 400,
+    "foc_speed_soure": 0,
+    "foc_mtpa_mode": 1,
+    "foc_encoder_offset": 267.53,
+    "s_pid_kp": 0.004,
+    "s_pid_ki": 0.004
+  },
+  "stage": "speed",
+  "ok": true,
+  "start_angle": 115.63037835410796,
+  "status": "completed",
+  "startup_s": null,
+  "energy_j": 9.205971538529656,
+  "i2t": 12.288491485628724,
+  "turns": 2.5551211558696725,
+  "samples": 81,
+  "rmse_erpm": 80.52178951318126,
+  "rms_current_a": 2.4634104118275957
+}

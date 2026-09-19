@@ -1,0 +1,40 @@
+{
+  "schema": "vesc-locked-rotor-v1",
+  "plan": {
+    "angle_count": 12,
+    "repeats": 3,
+    "min_poses": 4,
+    "max_pole_pairs": 8,
+    "d_axis": "minimum_inductance",
+    "max_rotor_drift_deg": 0.5,
+    "max_sample_age_s": 0.1,
+    "max_current_a": 3.0,
+    "max_phase_error_deg": 3.0,
+    "min_saliency": 0.05,
+    "max_relative_fit_error": 0.08,
+    "max_burst_s": 0.05,
+    "max_pose_energy_j": 2.0,
+    "max_pose_i2t_a2s": 5.0,
+    "min_cooldown_s": 8.0
+  },
+  "acquisition_schedule": null,
+  "acquisition_enabled": false,
+  "controller_connected": false,
+  "source_reference_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+  "baseline_sha256": null,
+  "suggested_manual_pose_deltas_deg": [
+    0,
+    17,
+    43,
+    79
+  ],
+  "gates": [
+    "Controller-side bounded acquisition adapter not yet validated",
+    "Confirm fixture and permission for each powered session",
+    "Reposition only with power disconnected; verify fixture again",
+    "Verify stator phase origin/sign and inverse-inductance scaling",
+    "Capture current, encoder, fault and energy guards on controller",
+    "Abort on movement, stale samples, disconnect, STOP or budget exhaustion",
+    "No auto-apply; resolve candidates and independently verify free-rotor startup"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "timing_qualification": {
+    "powered": {
+      "path": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-counter-timing-2700-powered-20260913-01",
+      "stage": "speed_2700rpm_6a_counter",
+      "probe_stage": "speed_2700rpm_5a_counter",
+      "coast_cadence": false,
+      "samples": 18556,
+      "age_s": 263.854815900002,
+      "maximum_gap_s": 0.025,
+      "verified": true
+    },
+    "coast": {
+      "path": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-counter-timing-2700-coast-20260913-01",
+      "stage": "speed_2700rpm_6a_counter",
+      "probe_stage": "speed_2700rpm_5a_counter",
+      "coast_cadence": true,
+      "samples": 18964,
+      "age_s": 192.80380719999812,
+      "maximum_gap_s": 0.025,
+      "verified": true
+    }
+  }
+}

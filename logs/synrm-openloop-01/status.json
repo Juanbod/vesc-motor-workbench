@@ -1,0 +1,46 @@
+{
+  "state": "observed_motion",
+  "simulated": false,
+  "energy_j": 2.671560000003723,
+  "results": [
+    {
+      "name": "diagnostic",
+      "changes": {
+        "foc_motor_flux_linkage": 0,
+        "foc_sat_comp_mode": 0,
+        "foc_observer_type": 0,
+        "l_current_max": 5,
+        "l_current_min": -5,
+        "l_in_current_max": 3,
+        "l_in_current_min": 0,
+        "l_abs_current_max": 8,
+        "l_min_erpm": -600,
+        "l_max_erpm": 600,
+        "l_max_duty": 0.35,
+        "s_pid_min_erpm": 30,
+        "s_pid_allow_braking": 0,
+        "s_pid_ramp_erpms_s": 400,
+        "foc_speed_soure": 0,
+        "foc_mtpa_mode": 0,
+        "foc_encoder_offset": 267.52764892578125
+      },
+      "stage": "openloop",
+      "ok": false,
+      "start_angle": 151.96289,
+      "signed_turns": 0.6701049722222218,
+      "status": "observed_motion",
+      "startup_s": null,
+      "energy_j": 2.671560000003723,
+      "i2t": 27.36482690009788,
+      "turns": 0.6701049722222218,
+      "samples": 75,
+      "max_measured_current_a": 4.05
+    }
+  ],
+  "best": null,
+  "reason": null,
+  "cleanup": {
+    "motor_restored": true,
+    "app_output": "disabled until power cycle"
+  }
+}

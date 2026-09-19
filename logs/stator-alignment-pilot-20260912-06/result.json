@@ -1,0 +1,125 @@
+{
+  "plan": {
+    "schema": "stator-alignment-v1",
+    "mode": "pilot",
+    "current_a": 2.0,
+    "dwell_s": 4.0,
+    "cooldown_s": 2.0,
+    "limits": {
+      "l_current_max": 2,
+      "l_current_min": -2,
+      "l_abs_current_max": 3,
+      "l_in_current_max": 1,
+      "l_in_current_min": 0,
+      "l_max_duty": 0.1,
+      "l_slow_abs_current": 0,
+      "foc_f_zv": 30000,
+      "foc_mtpa_mode": 0,
+      "foc_fw_current_max": 0,
+      "foc_cc_decoupling": 0
+    },
+    "steps": [
+      {
+        "phase_deg": 120.0,
+        "direction": "pilot"
+      }
+    ],
+    "commanded_on_time_s": 4.0,
+    "requires_free_fixture": true,
+    "offset_auto_apply": false,
+    "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f"
+  },
+  "simulated": false,
+  "ok": true,
+  "steps": [
+    {
+      "phase_deg": 120.0,
+      "direction": "pilot",
+      "index": 0,
+      "dispatch_t": 61739.2205383,
+      "command": "rotor_lock_openloop 2.000 4.000 120.000",
+      "settled": true,
+      "completed": true,
+      "max_powered_displacement_deg": 37.639151999999996,
+      "last_powered_encoder_deg": 195.666496,
+      "encoder_deg": 195.6273349577916,
+      "travel_deg": 28.01991095779158
+    }
+  ],
+  "errors": [],
+  "baseline_restored": true,
+  "zero_current_verified": true,
+  "app_isolated": true,
+  "physical_motion_verified": true,
+  "offset_applied": false,
+  "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+  "analysis": {
+    "candidate": null,
+    "applied": false,
+    "global_calibration_validated": false,
+    "status": "pilot_only"
+  },
+  "no_faults": true,
+  "terminal_output": [
+    {
+      "t": 61739.0149639,
+      "text": "-> rotor_lock_openloop"
+    },
+    {
+      "t": 61739.0153606,
+      "text": "This command requires three arguments. [current time angle]"
+    },
+    {
+      "t": 61739.2221798,
+      "text": "-> rotor_lock_openloop 2.000 4.000 120.000"
+    },
+    {
+      "t": 61739.2225155,
+      "text": "Locking rotor with openloop..."
+    },
+    {
+      "t": 61739.6257503,
+      "text": "T left: 3.60 s"
+    },
+    {
+      "t": 61740.0304609,
+      "text": "T left: 3.20 s"
+    },
+    {
+      "t": 61740.4312005,
+      "text": "T left: 2.80 s"
+    },
+    {
+      "t": 61740.8217233,
+      "text": "T left: 2.40 s"
+    },
+    {
+      "t": 61741.2238925,
+      "text": "T left: 2.00 s"
+    },
+    {
+      "t": 61741.629074,
+      "text": "T left: 1.60 s"
+    },
+    {
+      "t": 61742.0236202,
+      "text": "T left: 1.20 s"
+    },
+    {
+      "t": 61742.4265355,
+      "text": "T left: 0.80 s"
+    },
+    {
+      "t": 61742.8221578,
+      "text": "T left: 0.40 s"
+    },
+    {
+      "t": 61743.2244312,
+      "text": "T left: 0.00 s"
+    },
+    {
+      "t": 61743.224485,
+      "text": "Done"
+    }
+  ]
+}

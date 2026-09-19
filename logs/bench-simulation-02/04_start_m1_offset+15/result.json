@@ -1,0 +1,28 @@
+{
+  "name": "start_m1_offset+15",
+  "changes": {
+    "l_current_max": 5,
+    "l_current_min": -5,
+    "l_in_current_max": 3,
+    "l_in_current_min": 0,
+    "l_abs_current_max": 8,
+    "l_min_erpm": -600,
+    "l_max_erpm": 600,
+    "l_max_duty": 0.35,
+    "s_pid_min_erpm": 30,
+    "s_pid_allow_braking": 0,
+    "s_pid_ramp_erpms_s": 400,
+    "foc_speed_soure": 0,
+    "foc_mtpa_mode": 1,
+    "foc_encoder_offset": 282.53
+  },
+  "stage": "startup",
+  "ok": true,
+  "start_angle": 265.86254389350677,
+  "status": "completed",
+  "startup_s": 0.7750000000000004,
+  "energy_j": 3.3345000000000016,
+  "i2t": 4.463495367187499,
+  "turns": 0.49154377843179464,
+  "samples": 31
+}

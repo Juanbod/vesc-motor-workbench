@@ -1,0 +1,99 @@
+{
+  "plan": {
+    "schema": "stator-alignment-v1",
+    "mode": "pilot",
+    "current_a": 2.0,
+    "dwell_s": 2.0,
+    "cooldown_s": 2.0,
+    "limits": {
+      "l_current_max": 2,
+      "l_current_min": -2,
+      "l_abs_current_max": 3,
+      "l_in_current_max": 1,
+      "l_in_current_min": 0,
+      "l_max_duty": 0.1,
+      "l_slow_abs_current": 0,
+      "foc_f_zv": 30000,
+      "foc_mtpa_mode": 0,
+      "foc_fw_current_max": 0,
+      "foc_cc_decoupling": 0
+    },
+    "steps": [
+      {
+        "phase_deg": 120.0,
+        "direction": "pilot"
+      }
+    ],
+    "commanded_on_time_s": 2.0,
+    "requires_free_fixture": true,
+    "offset_auto_apply": false,
+    "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f"
+  },
+  "simulated": false,
+  "ok": false,
+  "steps": [
+    {
+      "phase_deg": 120.0,
+      "direction": "pilot",
+      "index": 0,
+      "dispatch_t": 61656.6209808,
+      "command": "rotor_lock_openloop 2.000 2.000 120.000",
+      "settled": false,
+      "completed": true,
+      "max_powered_displacement_deg": 39.59473600000001,
+      "last_powered_encoder_deg": 195.117184
+    }
+  ],
+  "errors": [
+    "Rotor did not settle under the field"
+  ],
+  "baseline_restored": true,
+  "zero_current_verified": true,
+  "app_isolated": true,
+  "physical_motion_verified": true,
+  "offset_applied": false,
+  "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+  "no_faults": true,
+  "terminal_output": [
+    {
+      "t": 61656.4157061,
+      "text": "-> rotor_lock_openloop"
+    },
+    {
+      "t": 61656.4157965,
+      "text": "This command requires three arguments. [current time angle]"
+    },
+    {
+      "t": 61656.622318,
+      "text": "-> rotor_lock_openloop 2.000 2.000 120.000"
+    },
+    {
+      "t": 61656.6225236,
+      "text": "Locking rotor with openloop..."
+    },
+    {
+      "t": 61657.0290677,
+      "text": "T left: 1.60 s"
+    },
+    {
+      "t": 61657.422035,
+      "text": "T left: 1.20 s"
+    },
+    {
+      "t": 61657.8270648,
+      "text": "T left: 0.80 s"
+    },
+    {
+      "t": 61658.2211586,
+      "text": "T left: 0.40 s"
+    },
+    {
+      "t": 61658.6269344,
+      "text": "T left: 0.00 s"
+    },
+    {
+      "t": 61658.6270587,
+      "text": "Done"
+    }
+  ]
+}

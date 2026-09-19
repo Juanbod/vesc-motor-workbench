@@ -1,0 +1,27 @@
+{
+  "name": "speed_confirmation",
+  "changes": {
+    "l_current_max": 5,
+    "l_current_min": -5,
+    "l_in_current_max": 3,
+    "l_in_current_min": 0,
+    "l_abs_current_max": 8,
+    "l_min_erpm": -600,
+    "l_max_erpm": 600,
+    "l_max_duty": 0.35,
+    "s_pid_min_erpm": 30,
+    "s_pid_allow_braking": 0,
+    "s_pid_ramp_erpms_s": 400,
+    "foc_mtpa_mode": 1,
+    "foc_encoder_offset": 267.53,
+    "s_pid_kp": 0.002,
+    "s_pid_ki": 0.002
+  },
+  "stage": "speed",
+  "ok": false,
+  "start_angle": 295.512808183209,
+  "status": "aborted",
+  "error": "Campaign energy budget reached",
+  "energy_j": 2.6542658127993697,
+  "i2t": 3.1242707328390873
+}

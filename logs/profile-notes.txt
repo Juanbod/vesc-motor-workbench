@@ -1,0 +1,14 @@
+﻿2026-08-12 profile 52_raw17_highspeed_i75_b100_sl2000_interp500: user result = already not bad / рабочий кандидат
+2026-08-12 profile 53_raw17_highspeed_i75_b100_sl3000_interp500: user result = bad / хреновый
+2026-08-12 profile 54_raw17_highspeed_i75_b100_sl4000_interp500: user result = bad, sync loss and weak/no start
+2026-08-12 profile 55_raw17_highspeed_i75_b100_sl3000_interp1000: user result = bad, sync loss starts around 30 percent throttle
+2026-08-12 profile 56_raw17_highspeed_i75_b100_sl4000_interp1000: user result = rpm does not rise above about one third throttle
+2026-08-12 profile 57_raw17_highspeed_i75_b100_sl3000_trim_p5: user result = worse, sync loss at even lower throttle
+2026-08-12 profile 58_raw17_highspeed_i75_b100_sl3000_trim_m5: user result = same bad behavior as 57
+2026-08-12 profile 59_raw17_best52_i75_b100_sl1800_interp500: user result = very decent, but rpm self-rises at a certain throttle level, not ideal
+2026-08-12 profile 60_raw17_best52_i75_b100_sl2200_interp500: user result = bad, sync loss and poor low rpm
+2026-08-12 profile 61_raw17_best52_i75_b100_sl2500_interp500: user result = mediocre, rpm does not rise
+2026-08-13 tuning note: custom rotor has 4 unshorted steel-20 plates, so treat as SynRM-like reluctance rotor, not induction. Start MTPA branch from best Hall profiles because VESC FOC with MTPA off can suppress useful Id/reluctance torque.
+2026-08-13 generated profiles 69-78: same detected Hall table and 75/100A limits, foc_mtpa_mode=1, centered around profiles 52/59/62.
+2026-08-13 risk to verify separately: ESP Hall emulator is documented as pole_pairs=7 while latest rotor description mentions 4 plates; wrong electrical sector scaling can cause sync loss and wrong-direction starts.
+2026-08-27 new direction: remove AS5600+ESP Hall emulation and use a direct encoder on the VESC sensor port. Generated XML profiles 79-92 in vesc-direct-encoder-profiles. Primary path is MT6816 SPI HW, foc_sensor_mode=1, m_sensor_port_mode=7, foc_encoder_ratio=2, si_motor_poles=4, with MTPA enabled for the main test profiles. AS5048A SPI and MT6816 ABI profiles are kept as fallback.

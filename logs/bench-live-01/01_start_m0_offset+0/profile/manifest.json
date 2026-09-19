@@ -1,0 +1,29 @@
+{
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "changes": {
+    "l_current_max": 5,
+    "l_current_min": -5,
+    "l_in_current_max": 3,
+    "l_in_current_min": 0,
+    "l_abs_current_max": 8,
+    "l_min_erpm": -600,
+    "l_max_erpm": 600,
+    "l_max_duty": 0.35,
+    "s_pid_min_erpm": 30,
+    "s_pid_allow_braking": 0,
+    "s_pid_ramp_erpms_s": 400,
+    "foc_speed_soure": 0,
+    "foc_mtpa_mode": 0,
+    "foc_encoder_offset": 267.52764892578125
+  },
+  "files": {
+    "motor": {
+      "path": "mcconf.bin",
+      "sha256": "2025ef89732ecaefafb1b2948a727e75714de45883cb64faee2351b34a09ecc2"
+    }
+  }
+}

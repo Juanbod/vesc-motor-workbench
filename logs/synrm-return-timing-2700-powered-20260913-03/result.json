@@ -1,0 +1,66 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": false,
+  "ok": false,
+  "timing_limit_s": 0.025,
+  "stage": "speed_2700rpm_6a_counter_return",
+  "sample_pause_s": 0.002,
+  "coast_cadence": false,
+  "duration_s": 60,
+  "errors": [
+    "Counter telemetry gap exceeds bound"
+  ],
+  "maximum_phase_s": {
+    "interlock_s": 0.000789099998655729,
+    "send_s": 0.0008710999973118305,
+    "sleep_s": 0.003836700001556892,
+    "read_s": 0.002628900001582224,
+    "validation_logging_s": 0.023167100000136998,
+    "total_s": 0.02670369999759714
+  },
+  "slow_command_intervals": [
+    {
+      "t": 24080.2003632,
+      "interval_s": 0.026817900001333328,
+      "previous_cycle": {
+        "interlock_s": 0.00029659999927389435,
+        "send_s": 0.00019249999968451448,
+        "sleep_s": 0.0022712999998475425,
+        "read_s": 0.0007761999986541923,
+        "validation_logging_s": 0.023167100000136998,
+        "total_s": 0.02670369999759714
+      },
+      "current_interlock_s": 0.0004008000032627024
+    }
+  ],
+  "maximum_gc_pause_s": 0,
+  "battery_source": {
+    "schema": "bench-battery-v1",
+    "source": "battery",
+    "series_cells": 6,
+    "parallel_cells": 1,
+    "capacity_ah": 4.5,
+    "confirmed_by_user": true,
+    "reported_date": "2026-09-13",
+    "chemistry": null,
+    "charge_current_rating_a": null,
+    "discharge_current_rating_a": null,
+    "bms_capability": null,
+    "scope": "Small bounded return-current diagnostic only; capacity is not a current rating"
+  },
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true
+}

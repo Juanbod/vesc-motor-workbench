@@ -1,0 +1,10 @@
+{
+  "output": "logs/synrm-openloop-01",
+  "openloop_erpm": 60.0,
+  "current": 4.0,
+  "offset_delta": 0,
+  "mtpa": 0,
+  "direction": 1,
+  "inverted": null,
+  "armed": true
+}

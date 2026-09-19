@@ -1,0 +1,13 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": true,
+  "timing_limit_s": 0.02,
+  "errors": [],
+  "baseline_unchanged": true,
+  "samples": 2342,
+  "maximum_command_interval_s": 0.010588400000415277,
+  "over_20ms_command_intervals": 0,
+  "maximum_get_values_latency_s": 0.004186300000583287
+}

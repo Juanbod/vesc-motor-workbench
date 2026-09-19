@@ -1,0 +1,42 @@
+{
+  "scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false,
+    "thread_switch_interval_s": 0.001,
+    "previous_thread_switch_interval_s": 0.005
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "timing_qualification": {
+    "powered": {
+      "path": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-native-timing-9200-dq-return075-powered-20260913-01",
+      "stage": "speed_9200rpm_10a_dq_return075",
+      "probe_stage": "speed_9200rpm_10a_dq_return075",
+      "coast_cadence": false,
+      "samples": 7697,
+      "age_s": 82.12063439999474,
+      "maximum_gap_s": 0.025,
+      "replayed_maximum_rpm": 10120,
+      "verified": true
+    },
+    "coast": {
+      "path": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-native-timing-9200-dq-return075-coast-20260913-01",
+      "stage": "speed_9200rpm_10a_dq_return075",
+      "probe_stage": "speed_9200rpm_10a_dq_return075",
+      "coast_cadence": true,
+      "samples": 7709,
+      "age_s": 11.892051000002539,
+      "maximum_gap_s": 0.1,
+      "replayed_maximum_rpm": 10120,
+      "verified": true
+    }
+  }
+}

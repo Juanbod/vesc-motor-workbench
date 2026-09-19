@@ -1,0 +1,45 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "flash_writes": false,
+  "qualified_for_powered_control": false,
+  "tick_hz_assumed": 10000,
+  "ok": true,
+  "errors": [],
+  "samples": 3319,
+  "capability": {
+    "excitation_sent": false,
+    "configuration_writes": false,
+    "code_writes": false,
+    "runtime_started": false,
+    "protocol_reference": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+    "stored_code_bytes": 0,
+    "runtime_response": true,
+    "errors": [],
+    "storage_header_hex": "820000000000000000",
+    "runtime_stats_hex": "8601e700a2085a000000",
+    "interpretation": "Runtime replied; no program was started or replaced"
+  },
+  "possible_distance_scales": [
+    0.006208385806530714
+  ],
+  "clock_calibration": {
+    "tick_hz_lower": 10036.96218683839,
+    "tick_hz_upper": 10042.344989060268,
+    "tick_hz_estimate": 10039.653587949328,
+    "checked_windows": 133,
+    "samples": 3319,
+    "host_span_s": 60.009192900000926,
+    "relative_interval_width": 0.00053629794769349,
+    "nominal_10000hz_consistent": false,
+    "scope": "Observed stationary bench interval; not a temperature-wide clock certification"
+  },
+  "controller_clock_scale_consistent": false,
+  "native_duration_s": 60.2311,
+  "host_duration_bounds_s": [
+    59.97702649999923,
+    60.009392900000925
+  ],
+  "maximum_host_round_trip_s": 0.0167092000010598,
+  "maximum_native_bracket_s": 0.0004
+}

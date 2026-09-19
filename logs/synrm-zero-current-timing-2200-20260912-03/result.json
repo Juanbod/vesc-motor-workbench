@@ -1,0 +1,80 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": true,
+  "ok": false,
+  "timing_limit_s": 0.006,
+  "stage": "speed_2200rpm_5a_smooth",
+  "sample_pause_s": 0,
+  "duration_s": 60,
+  "errors": [],
+  "maximum_phase_s": {
+    "interlock_s": 0.0036331000010250136,
+    "send_s": 0.008022199999686563,
+    "sleep_s": 0.00011199999789823778,
+    "read_s": 0.007206800000858493,
+    "validation_logging_s": 0.0030224999973142985,
+    "total_s": 0.008970999999291962
+  },
+  "slow_command_intervals": [
+    {
+      "t": 17849.6030658,
+      "interval_s": 0.006701000002067303,
+      "previous_cycle": {
+        "interlock_s": 0.00016150000010384247,
+        "send_s": 0.00462590000097407,
+        "sleep_s": 2.0999978005420417e-06,
+        "read_s": 0.0010803000004671048,
+        "validation_logging_s": 0.00021399999968707561,
+        "total_s": 0.006083799999032635
+      },
+      "current_interlock_s": 0.0007617000010213815
+    },
+    {
+      "t": 17868.930213,
+      "interval_s": 0.009085400000913069,
+      "previous_cycle": {
+        "interlock_s": 0.0002583999994385522,
+        "send_s": 0.008022199999686563,
+        "sleep_s": 1.3000026228837669e-06,
+        "read_s": 0.0006012999983795453,
+        "validation_logging_s": 8.779999916441739e-05,
+        "total_s": 0.008970999999291962
+      },
+      "current_interlock_s": 0.0003644999997050036
+    },
+    {
+      "t": 17880.3021857,
+      "interval_s": 0.007547699999122415,
+      "previous_cycle": {
+        "interlock_s": 0.0003885000005539041,
+        "send_s": 9.530000170343556e-05,
+        "sleep_s": 5.000001692678779e-07,
+        "read_s": 0.0016770000001997687,
+        "validation_logging_s": 0.0030224999973142985,
+        "total_s": 0.005183799999940675
+      },
+      "current_interlock_s": 0.002740199997788295
+    },
+    {
+      "t": 17890.7962353,
+      "interval_s": 0.007963200001540827,
+      "previous_cycle": {
+        "interlock_s": 0.0005791000003227964,
+        "send_s": 0.0003818000004685018,
+        "sleep_s": 8.700000762473792e-06,
+        "read_s": 0.007206800000858493,
+        "validation_logging_s": 7.109999933163635e-05,
+        "total_s": 0.008247500001743902
+      },
+      "current_interlock_s": 0.0002877000006265007
+    }
+  ],
+  "maximum_gc_pause_s": 0.0006367999994836282,
+  "baseline_unchanged": true,
+  "samples": 60599,
+  "maximum_command_interval_s": 0.009085400000913069,
+  "over_20ms_command_intervals": 0,
+  "over_limit_command_intervals": 4,
+  "maximum_get_values_latency_s": 0.0072065999993355945
+}

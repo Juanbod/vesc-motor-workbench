@@ -1,0 +1,7 @@
+name,stage,ok,status,startup_s,energy_j,i2t,rmse_erpm,rms_current_a,start_angle,error
+start_m0_offset+0,startup,False,no_start,,1.705782000004256,15.355632700037225,,,204.36768,
+start_m1_offset+0,startup,False,stalled,,0.0,0.001965300000045681,,,11.42578,
+start_m1_offset-15,startup,False,stalled,,0.0,0.0020507999998982994,,,11.38183,
+start_m1_offset+15,startup,False,stalled,,0.0,0.0021167000000074042,,,11.35986,
+start_m1_offset-30,startup,False,stalled,,0.0,0.0022051999999879632,,,11.35986,
+start_m1_offset+30,startup,False,stalled,,0.0,0.00213399999999383,,,11.29394,

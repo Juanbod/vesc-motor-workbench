@@ -1,0 +1,92 @@
+{
+  "test": "stock_hfi_raw_locked",
+  "duty": 0.02,
+  "excitation_sent": true,
+  "baseline_restored": true,
+  "no_faults": true,
+  "offset_applied": false,
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "baseline_sha256": "44842c255c068e60ef3bccd71399ad8f96b03824f30776e05097921be933b589",
+  "dispatch_t": 57368.7929107,
+  "command": "measure_ind 0.020",
+  "measurement_response": {
+    "t": 57369.2021841,
+    "text": "Inductance: 46.02 uH, ld_lq_diff: 42.29 uH (0.31 A)"
+  },
+  "plot_disabled": true,
+  "zero_current_verified": true,
+  "app_unchanged": true,
+  "analysis": {
+    "full_curves": 2,
+    "accepted_curves": [],
+    "rejected_curves": [
+      "Invalid/stale raw inductance or delta-current sample",
+      "Invalid/stale raw inductance or delta-current sample"
+    ],
+    "candidate": null,
+    "applied": false,
+    "ratio_direction_independently_validated": false,
+    "assumptions": {
+      "encoder_ratio": 2.0,
+      "encoder_inverted": false,
+      "d_axis": "minimum_inductance",
+      "raw_encoder_deg": 307.6135213333333
+    },
+    "status": "insufficient_or_invalid_data"
+  },
+  "errors": [],
+  "terminal_output": [
+    {
+      "t": 57367.2769896,
+      "text": "-> measure_ind"
+    },
+    {
+      "t": 57367.2772229,
+      "text": "This command requires one argument. [duty]"
+    },
+    {
+      "t": 57367.2776471,
+      "text": "-> foc_plot_hfi_en"
+    },
+    {
+      "t": 57367.2777629,
+      "text": "This command requires one argument."
+    },
+    {
+      "t": 57368.7923234,
+      "text": "-> foc_plot_hfi_en 2"
+    },
+    {
+      "t": 57368.7927448,
+      "text": "HFI plot enabled"
+    },
+    {
+      "t": 57368.7942967,
+      "text": "-> measure_ind 0.020"
+    },
+    {
+      "t": 57368.7944874,
+      "text": "Measuring inductance..."
+    },
+    {
+      "t": 57369.2021841,
+      "text": "Inductance: 46.02 uH, ld_lq_diff: 42.29 uH (0.31 A)"
+    },
+    {
+      "t": 57370.7000337,
+      "text": "-> foc_plot_hfi_en 0"
+    },
+    {
+      "t": 57370.7001785,
+      "text": "HFI plot disabled"
+    }
+  ],
+  "elapsed_s": 4.431355699998676,
+  "sampled_peak_current_a": 0.14035668847618202,
+  "encoder_span_deg": 0.15379200000000992,
+  "ok": false
+}

@@ -1,0 +1,207 @@
+{
+  "status": "bounded_speed_increase_observed",
+  "excitation_sent": true,
+  "zero_current_verified": true,
+  "baseline_restored": true,
+  "offset_calibrated": false,
+  "motion_observed": true,
+  "source_evidence_kind": "configuration_inference_not_direct_telemetry",
+  "errors": [],
+  "plan": {
+    "schema": "synrm-current-pilot-v2",
+    "status": "requires_free_fixture_and_preflight",
+    "firmware": {
+      "major": 6,
+      "minor": 2,
+      "hardware": "MKSESC_84_100_HP"
+    },
+    "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+    "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+    "candidate_sha256": "0bb40772d83d809e3cb66c1811af6f3696ec6f09f41aa2362f617894078b5ceb",
+    "changes": {
+      "foc_motor_flux_linkage": 0.0,
+      "foc_mtpa_mode": 1.0,
+      "foc_sat_comp_mode": 0.0,
+      "foc_observer_type": 0.0,
+      "foc_cc_decoupling": 0.0,
+      "foc_speed_soure": 0.0,
+      "foc_fw_current_max": 0.0,
+      "foc_encoder_offset": 1.0204274654388428,
+      "l_current_max": 3.0,
+      "l_current_min": -3.0,
+      "l_current_max_scale": 1.0,
+      "l_current_min_scale": 1.0,
+      "l_in_current_max": 2.0,
+      "l_in_current_min": 0.0,
+      "l_abs_current_max": 5.0,
+      "l_slow_abs_current": 0.0,
+      "l_min_erpm": -240.0,
+      "l_max_erpm": 240.0,
+      "l_max_duty": 0.1,
+      "foc_f_zv": 30000.0,
+      "foc_sample_v0_v7": 0.0,
+      "foc_sl_erpm": 500000.0
+    },
+    "expected_targets": [
+      {
+        "command_a": 0,
+        "id_a": 0.0,
+        "iq_a": 0.0
+      },
+      {
+        "command_a": 0.75,
+        "id_a": -0.5303300858899106,
+        "iq_a": 0.5303300858899107
+      },
+      {
+        "command_a": 1.5,
+        "id_a": -1.0606601717798212,
+        "iq_a": 1.0606601717798214
+      },
+      {
+        "command_a": 2.25,
+        "id_a": -1.590990257669732,
+        "iq_a": 1.590990257669732
+      },
+      {
+        "command_a": 3,
+        "id_a": -2.1213203435596424,
+        "iq_a": 2.121320343559643
+      }
+    ],
+    "source_pose_deg": 207.2034252772311,
+    "offset_calibrated": false,
+    "target_convention": "minimum-L d-axis; requested-current MTPA",
+    "stage": "speed_90rpm_3a",
+    "bounds": {
+      "command_a": 3,
+      "ramp_s": 1,
+      "maximum_powered_s": 6,
+      "maximum_mechanical_travel_deg": 4320,
+      "maximum_mechanical_rpm": 120,
+      "maximum_i2t_a2s": 54,
+      "maximum_input_energy_j": 18,
+      "maximum_telemetry_gap_s": 0.1,
+      "cooldown_s": 8,
+      "maximum_mos_temperature_c": 50,
+      "bus_voltage_v": [
+        18,
+        30
+      ],
+      "maximum_full_event_travel_deg": 10080
+    },
+    "required_checks": [
+      "User confirms power-off removal of the mechanical fixture",
+      "Fresh baseline, encoder diagnostics, zero current and standstill",
+      "Isolated external app with verified 300 ms zero-brake watchdog",
+      "Verified current-protective configuration readback before torque",
+      "Fresh independent entry readback within 1 s; remain within 0.5 deg during preparation",
+      "Verify encoder-enforcement configuration and retain its reference-firmware assumptions",
+      "Measure both Id and Iq, physical encoder travel, voltage, current and MOS temperature",
+      "Stop on unexpected direction, stale data, fault, current mismatch or any bound",
+      "Verify zero current and standstill before exact baseline rollback"
+    ],
+    "observer_transition": {
+      "threshold_erpm": 500000,
+      "source": "m_speed_est_fast",
+      "encoder_only_guaranteed": false,
+      "evidence": {
+        "source": "encoder",
+        "age_s": 0,
+        "method": "reference_firmware_configuration_bound",
+        "direct_source_flag_available": false,
+        "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+        "fast_estimator_bound_erpm": 300000.0,
+        "enter_encoder_below_erpm": 475000,
+        "leave_encoder_above_erpm": 525000,
+        "config_sha256": "0bb40772d83d809e3cb66c1811af6f3696ec6f09f41aa2362f617894078b5ceb",
+        "limitation": "Requires matching reference logic, positive loop divider, functioning encoder and no concurrent configuration writer"
+      }
+    },
+    "motor_temperature_available": false,
+    "limitations": [
+      "Zero-flux model is a test hypothesis, not measured motor characterization",
+      "No torque sensor; Id/Iq telemetry alone does not prove useful torque",
+      "Use only the dedicated single-trial runner, not the generic campaign",
+      "No source-selection flag in the currently used GET_VALUES telemetry",
+      "Travel envelope is monitored through coast-down, but zero current cannot guarantee a mechanical stop position",
+      "Positive-current taper does not guarantee steady speed or prevent externally driven overspeed",
+      "One speed increase after the three-start series; not a mechanical maximum-speed qualification"
+    ],
+    "live_runner_ready": true,
+    "auto_apply_allowed": false,
+    "hardware_commands_sent": false,
+    "full_speed_test_allowed": false,
+    "rotation_supervisor": {
+      "taper_starts_rpm": 75,
+      "zero_current_rpm": 90,
+      "slew_a_per_s": 3,
+      "active_braking": false,
+      "minimum_completion_travel_deg": 720
+    }
+  },
+  "prior_run_reference": {
+    "source": "C:\\Users\\jando\\Desktop\\Codex\\2026-08-11\\e-d\\outputs\\logs\\synrm-repeatability-3a-20260912-02\\trial-03",
+    "starting_pose_deg": 356.616224,
+    "tested_start_poses_deg": [
+      116.674808,
+      11.359863,
+      248.59864,
+      101.535648
+    ],
+    "interpretation": "Completed low-current startup series supports one bounded speed increase, not maximum-speed or offset qualification"
+  },
+  "expected_start_pose_deg": 345.322272,
+  "starting_pose_reference": {
+    "method": "fresh_independent_entry_readback",
+    "previous_quiet_deg": 356.616224,
+    "entry_deg": 345.322272,
+    "change_from_prior_deg": -11.29395199999999
+  },
+  "app_isolated": true,
+  "encoder_diagnostics": "-> encoder\nSPI encoder value: 32101, errors: 0, error rate: 0.000 %",
+  "source_evidence": {
+    "source": "encoder",
+    "age_s": 0,
+    "method": "reference_firmware_configuration_bound",
+    "direct_source_flag_available": false,
+    "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f",
+    "fast_estimator_bound_erpm": 300000.0,
+    "enter_encoder_below_erpm": 475000,
+    "leave_encoder_above_erpm": 525000,
+    "config_sha256": "0bb40772d83d809e3cb66c1811af6f3696ec6f09f41aa2362f617894078b5ceb",
+    "limitation": "Requires matching reference logic, positive loop divider, functioning encoder and no concurrent configuration writer"
+  },
+  "full_event_travel_deg": 2882.8564479999977,
+  "full_event_peak_abs_travel_deg": 2884.152831999998,
+  "travel_deg": 2034.3823199999963,
+  "powered_s": 5.802618800000346,
+  "input_energy_j": 3.398926841400366,
+  "i2t_a2s": 27.968730139506626,
+  "last_powered_observation": {
+    "temp_mos_c": 26.4,
+    "temp_motor_c": -51.8,
+    "current_motor_a": 0.54,
+    "current_in_a": 0.02,
+    "id_a": -1.27,
+    "iq_a": 1.34,
+    "duty": 0.02,
+    "erpm": 160,
+    "v_in": 24.7,
+    "fault_code": 0,
+    "position_deg": 219.748528,
+    "t": 6336.1729983,
+    "latency_s": 0.0006708000000799075,
+    "encoder_rpm": 80.79767394537281,
+    "encoder_age_s": 0,
+    "travel_deg": 2034.3823199999963,
+    "elapsed_s": 5.802267500000198,
+    "input_energy_j": 3.398926841400366,
+    "i2t_a2s": 27.968730139506626,
+    "command_a": 1.8406540624156746
+  },
+  "encoder_displacement_detected": true,
+  "coast_travel_deg": 848.4741280000014,
+  "no_faults": true,
+  "ok": true
+}

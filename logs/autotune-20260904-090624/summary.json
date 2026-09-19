@@ -1,0 +1,78 @@
+{
+  "plan": {
+    "current_steps": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "hold_s": 1.5,
+    "cooldown_s": 1.0,
+    "expected_direction": 0
+  },
+  "results": [
+    {
+      "order": 1,
+      "profile": "01_mtpa-off_i25_b25",
+      "armed": false,
+      "status": "dry-run",
+      "settings": {
+        "schema": "direct-encoder-v1",
+        "safe_patch_fields": [
+          "l_current_max",
+          "l_in_current_max",
+          "l_abs_current_max",
+          "foc_mtpa_mode"
+        ],
+        "spec": {
+          "name": "mtpa-off_i25_b25",
+          "foc_mtpa_mode": 0,
+          "phase_current_max": 25.0,
+          "input_current_max": 25.0,
+          "abs_current_max": 45.0
+        },
+        "test": {
+          "current_steps": [
+            2.0,
+            5.0,
+            10.0
+          ],
+          "hold_s": 1.5,
+          "cooldown_s": 1.0,
+          "expected_direction": 0
+        }
+      }
+    },
+    {
+      "order": 2,
+      "profile": "02_mtpa-on_i25_b25",
+      "armed": false,
+      "status": "dry-run",
+      "settings": {
+        "schema": "direct-encoder-v1",
+        "safe_patch_fields": [
+          "l_current_max",
+          "l_in_current_max",
+          "l_abs_current_max",
+          "foc_mtpa_mode"
+        ],
+        "spec": {
+          "name": "mtpa-on_i25_b25",
+          "foc_mtpa_mode": 1,
+          "phase_current_max": 25.0,
+          "input_current_max": 25.0,
+          "abs_current_max": 45.0
+        },
+        "test": {
+          "current_steps": [
+            2.0,
+            5.0,
+            10.0
+          ],
+          "hold_s": 1.5,
+          "cooldown_s": 1.0,
+          "expected_direction": 0
+        }
+      }
+    }
+  ]
+}

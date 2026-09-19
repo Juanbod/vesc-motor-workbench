@@ -1,0 +1,340 @@
+{
+  "test": "stock_hfi_locked",
+  "plot_mode": 1,
+  "duty": 0.05,
+  "excitation_sent": true,
+  "baseline_restored": true,
+  "no_faults": true,
+  "offset_applied": false,
+  "firmware": {
+    "major": 6,
+    "minor": 2,
+    "hardware": "MKSESC_84_100_HP"
+  },
+  "baseline_sha256": "44842c255c068e60ef3bccd71399ad8f96b03824f30776e05097921be933b589",
+  "dispatch_t": 57647.9879628,
+  "command": "measure_ind 0.050",
+  "measurement_response": {
+    "t": 57648.3985783,
+    "text": "Inductance: 32.54 uH, ld_lq_diff: 12.19 uH (0.79 A)"
+  },
+  "plot_disabled": true,
+  "zero_current_verified": true,
+  "app_unchanged": true,
+  "analysis": {
+    "status": "dft_axis_not_repeatable",
+    "candidate": null,
+    "frames": [
+      {
+        "t": 57648.0512383,
+        "angle_deg": 138.51437855640435,
+        "amplitude_uh": 9.390823364257812,
+        "average_uh": 41.389286041259766
+      },
+      {
+        "t": 57648.0555033,
+        "angle_deg": 110.74202342881044,
+        "amplitude_uh": 5.276154518127441,
+        "average_uh": 42.19631576538086
+      },
+      {
+        "t": 57648.0596352,
+        "angle_deg": 90.39500600455834,
+        "amplitude_uh": 5.8479533195495605,
+        "average_uh": 36.918251037597656
+      },
+      {
+        "t": 57648.0638369,
+        "angle_deg": 62.01172460665265,
+        "amplitude_uh": 9.383191108703613,
+        "average_uh": 35.819766998291016
+      },
+      {
+        "t": 57648.076033,
+        "angle_deg": 130.95411046600893,
+        "amplitude_uh": 6.622252464294434,
+        "average_uh": 39.04414367675781
+      },
+      {
+        "t": 57648.0841759,
+        "angle_deg": 119.45940752687605,
+        "amplitude_uh": 18.01508331298828,
+        "average_uh": 45.56851577758789
+      },
+      {
+        "t": 57648.0878932,
+        "angle_deg": 84.98400037048002,
+        "amplitude_uh": 3.667619466781616,
+        "average_uh": 36.3856201171875
+      },
+      {
+        "t": 57648.092127,
+        "angle_deg": 84.64801653501792,
+        "amplitude_uh": 13.539024353027344,
+        "average_uh": 39.37257385253906
+      },
+      {
+        "t": 57648.1001728,
+        "angle_deg": 116.43628383795837,
+        "amplitude_uh": 9.394975662231445,
+        "average_uh": 35.36930847167969
+      },
+      {
+        "t": 57648.1045104,
+        "angle_deg": 84.18007344479118,
+        "amplitude_uh": 7.186354160308838,
+        "average_uh": 34.03691482543945
+      },
+      {
+        "t": 57648.1087195,
+        "angle_deg": 136.7441164669421,
+        "amplitude_uh": 7.073616027832031,
+        "average_uh": 37.9323844909668
+      },
+      {
+        "t": 57648.1697267,
+        "angle_deg": 47.02800736022093,
+        "amplitude_uh": 7.1232194900512695,
+        "average_uh": 33.83430480957031
+      },
+      {
+        "t": 57648.1742104,
+        "angle_deg": 65.97335043847593,
+        "amplitude_uh": 5.647126197814941,
+        "average_uh": 38.7577018737793
+      },
+      {
+        "t": 57648.1789086,
+        "angle_deg": 139.4462622460042,
+        "amplitude_uh": 9.169650077819824,
+        "average_uh": 42.60987854003906
+      },
+      {
+        "t": 57648.1842019,
+        "angle_deg": 101.2915892780732,
+        "amplitude_uh": 11.268927574157715,
+        "average_uh": 40.721370697021484
+      },
+      {
+        "t": 57648.1886441,
+        "angle_deg": 92.34938950347663,
+        "amplitude_uh": 36.30724334716797,
+        "average_uh": 49.767574310302734
+      },
+      {
+        "t": 57648.1938568,
+        "angle_deg": 120.31853604143694,
+        "amplitude_uh": 9.910954475402832,
+        "average_uh": 39.98176574707031
+      },
+      {
+        "t": 57648.1983276,
+        "angle_deg": 99.50518745160223,
+        "amplitude_uh": 2.933272361755371,
+        "average_uh": 33.80281448364258
+      },
+      {
+        "t": 57648.2036646,
+        "angle_deg": 69.71096655609031,
+        "amplitude_uh": 6.983331680297852,
+        "average_uh": 34.74352264404297
+      },
+      {
+        "t": 57648.2079827,
+        "angle_deg": 83.23829964127313,
+        "amplitude_uh": 4.945035934448242,
+        "average_uh": 35.6057243347168
+      },
+      {
+        "t": 57648.212606,
+        "angle_deg": 91.31097535339208,
+        "amplitude_uh": 9.037651062011719,
+        "average_uh": 39.4655647277832
+      },
+      {
+        "t": 57648.217488,
+        "angle_deg": 141.71456806936544,
+        "amplitude_uh": 4.6682047843933105,
+        "average_uh": 40.99478530883789
+      },
+      {
+        "t": 57648.2222246,
+        "angle_deg": 104.25712081190935,
+        "amplitude_uh": 18.57063102722168,
+        "average_uh": 43.69205856323242
+      },
+      {
+        "t": 57648.227001,
+        "angle_deg": 99.06020745736507,
+        "amplitude_uh": 4.625229835510254,
+        "average_uh": 34.35182571411133
+      },
+      {
+        "t": 57648.232168,
+        "angle_deg": 82.89950176787299,
+        "amplitude_uh": 11.791211128234863,
+        "average_uh": 38.50172805786133
+      },
+      {
+        "t": 57648.2369331,
+        "angle_deg": 104.56460909815415,
+        "amplitude_uh": 3.019141912460327,
+        "average_uh": 33.286781311035156
+      },
+      {
+        "t": 57648.2416792,
+        "angle_deg": 90.86212264189551,
+        "amplitude_uh": 9.165178298950195,
+        "average_uh": 36.33061981201172
+      },
+      {
+        "t": 57648.2462104,
+        "angle_deg": 44.070716449618416,
+        "amplitude_uh": 7.0451812744140625,
+        "average_uh": 35.86280059814453
+      },
+      {
+        "t": 57648.2506942,
+        "angle_deg": 109.88622804656453,
+        "amplitude_uh": 9.274657249450684,
+        "average_uh": 36.51930618286133
+      },
+      {
+        "t": 57648.2557753,
+        "angle_deg": 80.09666534006656,
+        "amplitude_uh": 9.9242525100708,
+        "average_uh": 35.43356704711914
+      },
+      {
+        "t": 57648.260408,
+        "angle_deg": 80.5799148842233,
+        "amplitude_uh": 12.776961326599121,
+        "average_uh": 36.592689514160156
+      },
+      {
+        "t": 57648.2650366,
+        "angle_deg": 73.02287064311614,
+        "amplitude_uh": 1.0402472019195557,
+        "average_uh": 41.94354248046875
+      },
+      {
+        "t": 57648.3353028,
+        "angle_deg": 40.92986078997722,
+        "amplitude_uh": 5.588692665100098,
+        "average_uh": 33.97773742675781
+      },
+      {
+        "t": 57648.3390005,
+        "angle_deg": 104.21555911080982,
+        "amplitude_uh": 4.303937911987305,
+        "average_uh": 33.578731536865234
+      },
+      {
+        "t": 57648.3432271,
+        "angle_deg": 82.7955462887054,
+        "amplitude_uh": 5.478216171264648,
+        "average_uh": 33.003055572509766
+      },
+      {
+        "t": 57648.3480772,
+        "angle_deg": 109.15882656033651,
+        "amplitude_uh": 5.978299617767334,
+        "average_uh": 36.52031326293945
+      },
+      {
+        "t": 57648.3567997,
+        "angle_deg": 56.877669483039995,
+        "amplitude_uh": 5.009749889373779,
+        "average_uh": 34.02260208129883
+      },
+      {
+        "t": 57648.3611999,
+        "angle_deg": 39.92816232177608,
+        "amplitude_uh": 9.00908088684082,
+        "average_uh": 47.6202507019043
+      },
+      {
+        "t": 57648.3652164,
+        "angle_deg": 137.52223893794664,
+        "amplitude_uh": 1.2787835597991943,
+        "average_uh": 35.026512145996094
+      },
+      {
+        "t": 57648.3694588,
+        "angle_deg": 134.64051382522655,
+        "amplitude_uh": 1.9818166494369507,
+        "average_uh": 35.27544021606445
+      }
+    ],
+    "ratio_direction_independently_validated": false,
+    "applied": false,
+    "assumptions": {
+      "encoder_ratio": 2.0,
+      "encoder_inverted": false,
+      "raw_encoder_deg": 307.61344374468086,
+      "d_axis": "minimum_inductance",
+      "speed_compensation_removed_by_zero_speed_pll": true
+    },
+    "evaluated_frames": 31,
+    "concentration": 0.678775921439928,
+    "minimum_inductance_axis_deg": 91.38775840664589,
+    "block_axes_deg": [
+      95.38635676922323,
+      101.21379394418192,
+      84.42868457884492,
+      69.81250942214793
+    ],
+    "max_block_axis_error_deg": 21.57524898449796
+  },
+  "errors": [],
+  "terminal_output": [
+    {
+      "t": 57646.4765641,
+      "text": "-> measure_ind"
+    },
+    {
+      "t": 57646.476785,
+      "text": "This command requires one argument. [duty]"
+    },
+    {
+      "t": 57646.4772775,
+      "text": "-> foc_plot_hfi_en"
+    },
+    {
+      "t": 57646.4774663,
+      "text": "This command requires one argument."
+    },
+    {
+      "t": 57647.9874399,
+      "text": "-> foc_plot_hfi_en 1"
+    },
+    {
+      "t": 57647.9878575,
+      "text": "HFI plot enabled"
+    },
+    {
+      "t": 57647.9890265,
+      "text": "-> measure_ind 0.050"
+    },
+    {
+      "t": 57647.9892074,
+      "text": "Measuring inductance..."
+    },
+    {
+      "t": 57648.3985783,
+      "text": "Inductance: 32.54 uH, ld_lq_diff: 12.19 uH (0.79 A)"
+    },
+    {
+      "t": 57649.8995154,
+      "text": "-> foc_plot_hfi_en 0"
+    },
+    {
+      "t": 57649.8996234,
+      "text": "HFI plot disabled"
+    }
+  ],
+  "elapsed_s": 4.434444899998198,
+  "sampled_peak_current_a": 0.09486832980505137,
+  "encoder_span_deg": 0.13184000000001106,
+  "ok": false
+}

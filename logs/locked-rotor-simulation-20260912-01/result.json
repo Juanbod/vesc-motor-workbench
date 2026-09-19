@@ -1,0 +1,286 @@
+{
+  "algorithm": "inverse-inductance-harmonic-v1",
+  "hardware_validated": false,
+  "auto_apply_allowed": false,
+  "simulated": true,
+  "candidate": {
+    "pole_pairs": 2,
+    "encoder_inverted": false,
+    "offset_mod_180_deg": 177.53194508113512,
+    "resultant": 0.9999998303462807,
+    "rms_error_deg": 0.016687425304632603,
+    "max_error_deg": 0.02192105488325069,
+    "offset_candidates_deg": [
+      177.53194508113512,
+      357.5319450811351
+    ],
+    "d_axis": "minimum_inductance"
+  },
+  "dataset_sha256": "fa0c4fc14ba4da1f58cb2450777a94429493fb9489b0cb9035e5233c95e0203d",
+  "poses": [
+    {
+      "pose_id": "pose-1",
+      "encoder_deg": 351.0,
+      "rotor_drift_deg": 0.0,
+      "min_l_axis_deg": 164.45012536418838,
+      "d_axis_deg": 164.45012536418838,
+      "repeat_error_deg": 0.012531982238300543,
+      "repeats": [
+        {
+          "min_l_axis_deg": 164.46241871602186,
+          "l_min_h": 1.4927881309239221e-05,
+          "l_max_h": 3.0309089978939163e-05,
+          "saliency": 0.34001411305180496,
+          "relative_fit_error": 0.0015446723542446427
+        },
+        {
+          "min_l_axis_deg": 164.43759338195008,
+          "l_min_h": 1.492987452243403e-05,
+          "l_max_h": 3.0292450430043105e-05,
+          "saliency": 0.3397122090417327,
+          "relative_fit_error": 0.0026553201162981366
+        },
+        {
+          "min_l_axis_deg": 164.45036399457078,
+          "l_min_h": 1.4922693913355362e-05,
+          "l_max_h": 3.0315230953533652e-05,
+          "saliency": 0.34025736338415796,
+          "relative_fit_error": 0.0028234272061247426
+        }
+      ],
+      "l_min_h": 1.4926816581676205e-05,
+      "l_max_h": 3.0305590454171974e-05
+    },
+    {
+      "pose_id": "pose-2",
+      "encoder_deg": 8.0,
+      "rotor_drift_deg": 0.0,
+      "min_l_axis_deg": 18.478386233603107,
+      "d_axis_deg": 18.478386233603107,
+      "repeat_error_deg": 0.014652400138146504,
+      "repeats": [
+        {
+          "min_l_axis_deg": 18.482576160848495,
+          "l_min_h": 1.4925211713978673e-05,
+          "l_max_h": 3.02912414466688e-05,
+          "saliency": 0.339832708197984,
+          "relative_fit_error": 0.0024400319912348586
+        },
+        {
+          "min_l_axis_deg": 18.488848706104537,
+          "l_min_h": 1.4931292517349527e-05,
+          "l_max_h": 3.0281601374498793e-05,
+          "saliency": 0.33951175286120894,
+          "relative_fit_error": 0.0020153111347994304
+        },
+        {
+          "min_l_axis_deg": 18.463733833464964,
+          "l_min_h": 1.4923831798535358e-05,
+          "l_max_h": 3.0292177993606244e-05,
+          "saliency": 0.33988727147130643,
+          "relative_fit_error": 0.0019310859041775893
+        }
+      ],
+      "l_min_h": 1.4926778676621186e-05,
+      "l_max_h": 3.0288340271591278e-05
+    },
+    {
+      "pose_id": "pose-3",
+      "encoder_deg": 34.0,
+      "rotor_drift_deg": 0.0,
+      "min_l_axis_deg": 70.45373210451582,
+      "d_axis_deg": 70.45373210451582,
+      "repeat_error_deg": 0.023145307504506718,
+      "repeats": [
+        {
+          "min_l_axis_deg": 70.43076605453018,
+          "l_min_h": 1.492542881760812e-05,
+          "l_max_h": 3.0294406653079616e-05,
+          "saliency": 0.33987248461870073,
+          "relative_fit_error": 0.00205573548556239
+        },
+        {
+          "min_l_axis_deg": 70.45355284705498,
+          "l_min_h": 1.4921755363662949e-05,
+          "l_max_h": 3.0320299206706192e-05,
+          "saliency": 0.3403590749640353,
+          "relative_fit_error": 0.0013746686773784547
+        },
+        {
+          "min_l_axis_deg": 70.47687741202033,
+          "l_min_h": 1.4929434726434766e-05,
+          "l_max_h": 3.0308482457333028e-05,
+          "saliency": 0.3399592352677226,
+          "relative_fit_error": 0.001222425275821671
+        }
+      ],
+      "l_min_h": 1.4925539635901945e-05,
+      "l_max_h": 3.0307729439039613e-05
+    },
+    {
+      "pose_id": "pose-4",
+      "encoder_deg": 70.0,
+      "rotor_drift_deg": 0.0,
+      "min_l_axis_deg": 142.48997597374813,
+      "d_axis_deg": 142.48997597374813,
+      "repeat_error_deg": 0.012284909443280867,
+      "repeats": [
+        {
+          "min_l_axis_deg": 142.50002291351342,
+          "l_min_h": 1.4927609157193695e-05,
+          "l_max_h": 3.0315580321488394e-05,
+          "saliency": 0.34011685165444133,
+          "relative_fit_error": 0.0017613609380059746
+        },
+        {
+          "min_l_axis_deg": 142.4922139432578,
+          "l_min_h": 1.4922285317285953e-05,
+          "l_max_h": 3.0319618468462728e-05,
+          "saliency": 0.3403334489214615,
+          "relative_fit_error": 0.0016206595989219348
+        },
+        {
+          "min_l_axis_deg": 142.47769106430485,
+          "l_min_h": 1.4932495088197598e-05,
+          "l_max_h": 3.0292594101640947e-05,
+          "saliency": 0.3396366770879593,
+          "relative_fit_error": 0.0013362847014649537
+        }
+      ],
+      "l_min_h": 1.4927463187559083e-05,
+      "l_max_h": 3.0309264297197355e-05
+    }
+  ],
+  "hypotheses": [
+    {
+      "pole_pairs": 2,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 177.53194508113512,
+      "resultant": 0.9999998303462807,
+      "rms_error_deg": 0.016687425304632603,
+      "max_error_deg": 0.02192105488325069
+    },
+    {
+      "pole_pairs": 7,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 81.35314726010833,
+      "resultant": 0.7856965541858555,
+      "rms_error_deg": 19.48287902006823,
+      "max_error_deg": 29.806879364624166
+    },
+    {
+      "pole_pairs": 3,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 20.185655004375203,
+      "resultant": 0.5407349876958057,
+      "rms_error_deg": 29.935414368008633,
+      "max_error_deg": 47.32436902187666
+    },
+    {
+      "pole_pairs": 1,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 154.89124045522487,
+      "resultant": 0.5402588532056559,
+      "rms_error_deg": 29.958325278939242,
+      "max_error_deg": 47.381216428973005
+    },
+    {
+      "pole_pairs": 7,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 168.1278006987934,
+      "resultant": 0.5424460195940963,
+      "rms_error_deg": 30.439519627939337,
+      "max_error_deg": 49.3938130676035
+    },
+    {
+      "pole_pairs": 3,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 6.9358735507248435,
+      "resultant": 0.541974368719321,
+      "rms_error_deg": 30.458284477898108,
+      "max_error_deg": 49.414259784327925
+    },
+    {
+      "pole_pairs": 5,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 88.12286492764541,
+      "resultant": 0.39359590459496674,
+      "rms_error_deg": 33.58786729530711,
+      "max_error_deg": 40.61284090139354
+    },
+    {
+      "pole_pairs": 6,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 100.05718221594921,
+      "resultant": 0.45736628894754594,
+      "rms_error_deg": 33.99772933322659,
+      "max_error_deg": 57.4528418103026
+    },
+    {
+      "pole_pairs": 8,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 54.21802657846632,
+      "resultant": 0.256840588865372,
+      "rms_error_deg": 37.67793815529496,
+      "max_error_deg": 43.30358718793059
+    },
+    {
+      "pole_pairs": 4,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 128.3030540884181,
+      "resultant": 0.4175596557870341,
+      "rms_error_deg": 40.76225209984379,
+      "max_error_deg": 76.75317945260645
+    },
+    {
+      "pole_pairs": 8,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 46.71577914730022,
+      "resultant": 0.41774627510656265,
+      "rms_error_deg": 40.78885962997957,
+      "max_error_deg": 76.83409548851142
+    },
+    {
+      "pole_pairs": 4,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 168.82739788759204,
+      "resultant": 0.29103954271713395,
+      "rms_error_deg": 43.481144351359774,
+      "max_error_deg": 76.71887000789212
+    },
+    {
+      "pole_pairs": 6,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 129.33177076421228,
+      "resultant": 0.3504093383873633,
+      "rms_error_deg": 43.617882039527665,
+      "max_error_deg": 80.1898430021846
+    },
+    {
+      "pole_pairs": 2,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 45.77556006814889,
+      "resultant": 0.3508577428672638,
+      "rms_error_deg": 43.63234578923316,
+      "max_error_deg": 80.25394630175197
+    },
+    {
+      "pole_pairs": 1,
+      "encoder_inverted": true,
+      "offset_mod_180_deg": 164.98657312243688,
+      "resultant": 0.23235842805901377,
+      "rms_error_deg": 50.00424503748577,
+      "max_error_deg": 89.4403052269527
+    },
+    {
+      "pole_pairs": 5,
+      "encoder_inverted": false,
+      "offset_mod_180_deg": 9.994853357201979,
+      "resultant": 0.23295105155682005,
+      "rms_error_deg": 50.037509933136974,
+      "max_error_deg": 89.55141453828219
+    }
+  ],
+  "status": "candidate_only",
+  "reason": "Axis is resolved modulo 180 electrical degrees; verify before applying"
+}

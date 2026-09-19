@@ -1,0 +1,40 @@
+{
+  "synrm_zero_flux": true,
+  "max_trials": 16,
+  "max_duration_s": 300,
+  "test_current_a": 3,
+  "phase_limit_a": 5,
+  "input_limit_a": 3,
+  "trip_current_a": 8,
+  "max_erpm": 600,
+  "max_duty": 0.35,
+  "min_voltage": 21,
+  "max_voltage": 29,
+  "max_mos_temp": 55,
+  "max_motor_temp": 65,
+  "allow_missing_motor_temp": true,
+  "trial_energy_j": 12,
+  "total_energy_j": 60,
+  "trial_i2t": 35,
+  "sample_s": 0.025,
+  "ramp_s": 0.4,
+  "trial_s": 2,
+  "stall_s": 0.65,
+  "settle_timeout_s": 15,
+  "cooldown_s": 4,
+  "startup_erpm": 120,
+  "direction": 1,
+  "repeats": 3,
+  "offset_deltas": [
+    0,
+    -15,
+    15,
+    -30,
+    30
+  ],
+  "speed_targets": [
+    150,
+    300
+  ],
+  "speed_hold_s": 1.2
+}

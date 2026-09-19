@@ -1,0 +1,287 @@
+{
+  "plan": {
+    "schema": "stator-alignment-v1",
+    "mode": "sweep",
+    "current_a": 2.0,
+    "dwell_s": 4.0,
+    "cooldown_s": 2.0,
+    "limits": {
+      "l_current_max": 2,
+      "l_current_min": -2,
+      "l_abs_current_max": 3,
+      "l_in_current_max": 1,
+      "l_in_current_min": 0,
+      "l_max_duty": 0.1,
+      "l_slow_abs_current": 0,
+      "foc_f_zv": 30000,
+      "foc_mtpa_mode": 0,
+      "foc_fw_current_max": 0,
+      "foc_cc_decoupling": 0
+    },
+    "steps": [
+      {
+        "phase_deg": 120.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 150.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 180.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 210.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 240.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 270.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 300.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 330.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 0.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 30.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 60.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 90.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 120.0,
+        "direction": "forward"
+      },
+      {
+        "phase_deg": 120.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 90.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 60.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 30.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 0.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 330.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 300.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 270.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 240.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 210.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 180.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 150.0,
+        "direction": "reverse"
+      },
+      {
+        "phase_deg": 120.0,
+        "direction": "reverse"
+      }
+    ],
+    "commanded_on_time_s": 104.0,
+    "requires_free_fixture": true,
+    "offset_auto_apply": false,
+    "source_commit": "f7c2b34e1cff2234cae98be3abf0cd50e249558f"
+  },
+  "simulated": false,
+  "ok": false,
+  "steps": [
+    {
+      "phase_deg": 120.0,
+      "direction": "forward",
+      "index": 0,
+      "dispatch_t": 61809.8316034,
+      "command": "rotor_lock_openloop 2.000 4.000 120.000",
+      "settled": true,
+      "completed": true,
+      "max_powered_displacement_deg": 0.1318239999999946,
+      "last_powered_encoder_deg": 196.32568,
+      "encoder_deg": 196.37981959432219,
+      "travel_deg": 0.03215559432217674
+    },
+    {
+      "phase_deg": 150.0,
+      "direction": "forward",
+      "index": 1,
+      "dispatch_t": 61816.042257,
+      "command": "rotor_lock_openloop 2.000 4.000 150.000",
+      "settled": true,
+      "completed": true,
+      "max_powered_displacement_deg": 11.557615999999996,
+      "last_powered_encoder_deg": 207.817376,
+      "encoder_deg": 207.83680672416904,
+      "travel_deg": 11.489142724169028,
+      "tracking_error_electrical_deg": -7.086025740306297
+    }
+  ],
+  "errors": [
+    "Rotor did not track field step; no further steps permitted"
+  ],
+  "baseline_restored": true,
+  "zero_current_verified": true,
+  "app_isolated": true,
+  "physical_motion_verified": true,
+  "offset_applied": false,
+  "baseline_sha256": "41b93fadce7ff41fdd8ace03dfe68ae8ed35faf5aee7d0c380cbb7cd2c976562",
+  "no_faults": true,
+  "terminal_output": [
+    {
+      "t": 61809.6256688,
+      "text": "-> rotor_lock_openloop"
+    },
+    {
+      "t": 61809.6259733,
+      "text": "This command requires three arguments. [current time angle]"
+    },
+    {
+      "t": 61809.8331277,
+      "text": "-> rotor_lock_openloop 2.000 4.000 120.000"
+    },
+    {
+      "t": 61809.8333828,
+      "text": "Locking rotor with openloop..."
+    },
+    {
+      "t": 61810.238965,
+      "text": "T left: 3.60 s"
+    },
+    {
+      "t": 61810.6430428,
+      "text": "T left: 3.20 s"
+    },
+    {
+      "t": 61811.0356001,
+      "text": "T left: 2.80 s"
+    },
+    {
+      "t": 61811.4393917,
+      "text": "T left: 2.40 s"
+    },
+    {
+      "t": 61811.8428769,
+      "text": "T left: 2.00 s"
+    },
+    {
+      "t": 61812.2356936,
+      "text": "T left: 1.60 s"
+    },
+    {
+      "t": 61812.6400848,
+      "text": "T left: 1.20 s"
+    },
+    {
+      "t": 61813.0327952,
+      "text": "T left: 0.80 s"
+    },
+    {
+      "t": 61813.4385068,
+      "text": "T left: 0.40 s"
+    },
+    {
+      "t": 61813.8321648,
+      "text": "T left: 0.00 s"
+    },
+    {
+      "t": 61813.832249,
+      "text": "Done"
+    },
+    {
+      "t": 61816.043804,
+      "text": "-> rotor_lock_openloop 2.000 4.000 150.000"
+    },
+    {
+      "t": 61816.0442188,
+      "text": "Locking rotor with openloop..."
+    },
+    {
+      "t": 61816.4515525,
+      "text": "T left: 3.60 s"
+    },
+    {
+      "t": 61816.8460734,
+      "text": "T left: 3.20 s"
+    },
+    {
+      "t": 61817.2511482,
+      "text": "T left: 2.80 s"
+    },
+    {
+      "t": 61817.6469074,
+      "text": "T left: 2.40 s"
+    },
+    {
+      "t": 61818.0500068,
+      "text": "T left: 2.00 s"
+    },
+    {
+      "t": 61818.4469068,
+      "text": "T left: 1.60 s"
+    },
+    {
+      "t": 61818.850972,
+      "text": "T left: 1.20 s"
+    },
+    {
+      "t": 61819.2464461,
+      "text": "T left: 0.80 s"
+    },
+    {
+      "t": 61819.6505006,
+      "text": "T left: 0.40 s"
+    },
+    {
+      "t": 61820.0434216,
+      "text": "T left: 0.00 s"
+    },
+    {
+      "t": 61820.0434642,
+      "text": "Done"
+    }
+  ]
+}

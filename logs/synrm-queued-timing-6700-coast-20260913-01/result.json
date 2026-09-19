@@ -1,0 +1,89 @@
+{
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "zero_current_verified": false,
+  "ok": false,
+  "timing_limit_s": 0.1,
+  "stage": "speed_6700rpm_8a_hold60",
+  "sample_pause_s": 0.002,
+  "coast_cadence": true,
+  "duration_s": 60,
+  "errors": [
+    "Counter/angle wrap is temporally ambiguous"
+  ],
+  "maximum_phase_s": {
+    "interlock_s": 0.000956299998506438,
+    "send_s": 0.000555899998289533,
+    "sleep_s": 0.003079400001297472,
+    "read_s": 0.0019300000021758024,
+    "validation_logging_s": 0.0003825999992841389,
+    "total_s": 0.004887600000074599
+  },
+  "slow_command_intervals": [],
+  "maximum_gc_pause_s": 0,
+  "queued_logging": true,
+  "battery_source": {
+    "schema": "bench-battery-v1",
+    "source": "battery",
+    "series_cells": 6,
+    "parallel_cells": 1,
+    "capacity_ah": 4.5,
+    "confirmed_by_user": true,
+    "reported_date": "2026-09-13",
+    "chemistry": null,
+    "charge_current_rating_a": null,
+    "discharge_current_rating_a": null,
+    "bms_capability": null,
+    "scope": "Small bounded return-current diagnostic only; capacity is not a current rating"
+  },
+  "host_scheduling": {
+    "applied": true,
+    "previous_priority_class": 32,
+    "priority_class": 32768,
+    "scope": "current_process_only",
+    "hard_realtime": false
+  },
+  "cyclic_gc": {
+    "deferred": true,
+    "previous_enabled": true,
+    "scope": "bounded_trial_process",
+    "reference_counting_unchanged": true
+  },
+  "buffered_rx": true,
+  "failed_counter_sample": {
+    "temp_mos_c": 27.4,
+    "temp_motor_c": -52.5,
+    "current_motor_a": 0.0,
+    "current_in_a": 0.0,
+    "id_a": 0.0,
+    "iq_a": 0.0,
+    "duty": 0.0,
+    "erpm": 0,
+    "v_in": 24.4,
+    "fault_code": 0,
+    "tachometer": 551843,
+    "tachometer_abs": 565225,
+    "position_deg": 42.934572,
+    "t": 28949.7904885,
+    "latency_s": 0.004999799999495735,
+    "returned_energy_j": 0.0
+  },
+  "failed_counter_previous": {
+    "temp_mos_c": 27.4,
+    "temp_motor_c": -52.5,
+    "current_motor_a": 0.0,
+    "current_in_a": 0.0,
+    "id_a": 0.0,
+    "iq_a": 0.0,
+    "duty": 0.0,
+    "erpm": 0,
+    "v_in": 24.4,
+    "fault_code": 0,
+    "tachometer": 551843,
+    "tachometer_abs": 565225,
+    "position_deg": 42.868652,
+    "t": 28949.782902,
+    "latency_s": 0.0004617000013240613,
+    "returned_energy_j": 0.0
+  }
+}

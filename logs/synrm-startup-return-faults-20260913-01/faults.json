@@ -1,0 +1,26 @@
+{
+  "read_only": true,
+  "excitation_sent": false,
+  "configuration_writes": false,
+  "capture_ended_on_idle": true,
+  "lines": [
+    "-> faults",
+    "The following faults were registered since start:",
+    "Fault            : FAULT_CODE_ABS_OVER_CURRENT",
+    "Motor            : 1",
+    "Current          : -3.0",
+    "Current filtered : -2.2",
+    "Voltage          : 24.56",
+    "Duty             : -0.020",
+    "RPM              : 41.1",
+    "Tacho            : 106865",
+    "Cycles running   : 23150",
+    "TIM duty         : -111",
+    "TIM val samp     : 2800",
+    "TIM current samp : 2800",
+    "TIM top          : 5600",
+    "Comm step        : 0",
+    "Temperature      : 26.56",
+    ""
+  ]
+}
