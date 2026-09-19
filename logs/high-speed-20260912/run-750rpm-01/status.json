@@ -1,0 +1,92 @@
+{
+  "state": "completed",
+  "simulated": false,
+  "energy_j": 10.709225553597808,
+  "results": [
+    {
+      "name": "diagnostic",
+      "changes": {
+        "foc_motor_flux_linkage": 0,
+        "foc_sat_comp_mode": 0,
+        "foc_observer_type": 0,
+        "l_current_max": 15,
+        "l_current_min": -15,
+        "l_in_current_max": 5,
+        "l_in_current_min": 0,
+        "l_abs_current_max": 18,
+        "l_min_erpm": -2000,
+        "l_max_erpm": 2000,
+        "l_max_duty": 0.35,
+        "s_pid_min_erpm": 30,
+        "s_pid_allow_braking": 0,
+        "s_pid_ramp_erpms_s": 600,
+        "foc_speed_soure": 0,
+        "foc_mtpa_mode": 1,
+        "foc_encoder_offset": 357.527648925781,
+        "s_pid_kp": 0.064,
+        "s_pid_ki": 0.04
+      },
+      "stage": "speed",
+      "ok": true,
+      "start_angle": 74.99267,
+      "signed_turns": 47.146362333333364,
+      "status": "completed",
+      "startup_s": null,
+      "energy_j": 10.709225553597808,
+      "i2t": 134.49670969585398,
+      "turns": 47.146362333333364,
+      "samples": 189,
+      "duration_s": 5.022243999999773,
+      "max_measured_current_a": 7.155934600036532,
+      "rmse_erpm": 659.2886178657794,
+      "rms_current_a": 5.182347428311312,
+      "speed_steps": [
+        {
+          "target_erpm": 1500,
+          "observed_s": 4.995941000001039,
+          "evaluation_s": 2.4792319999978645,
+          "mean_erpm": 1531.4360377055198,
+          "min_erpm": 1448.5035183892012,
+          "max_erpm": 1642.2494287215288,
+          "bias_erpm": 31.43603770551969,
+          "rmse_erpm": 61.881497038092704,
+          "peak_error_erpm": 142.24942872152883,
+          "drift_erpm_s": -16.58956395759459,
+          "fraction_in_tolerance": 1.0,
+          "tolerance_erpm": 150.0,
+          "qualified": true
+        }
+      ],
+      "speed_qualified": true
+    }
+  ],
+  "best": null,
+  "startup_coverage": {
+    "bins": 12,
+    "required_per_bin": 3,
+    "successful_starts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "failures": 0,
+    "same_candidate": true,
+    "qualified": false,
+    "scope": "Observed no-load starts only; not a guarantee under all loads or temperatures"
+  },
+  "reason": null,
+  "cleanup": {
+    "motor_restored": true,
+    "app_output": "disabled until power cycle",
+    "standstill_timeout_s": 30
+  }
+}

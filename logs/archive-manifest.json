@@ -401,6 +401,20 @@
       "archive_sha256": "349154230647b0413f50d81fd5be45efdac0e11514019276fb0a89d2480420d8"
     },
     {
+      "path": "rotor-thick-20260918-pilot-01/observations.jsonl",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_bytes": 20,
+      "archive_sha256": "ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83"
+    },
+    {
+      "path": "rotor-thick-20260918-pilot-01/samples.jsonl",
+      "original_bytes": 149083,
+      "original_sha256": "ac9731c2121f068e9695597507cbf7332cd27004634db75afa846d923cfd2a2b",
+      "archive_bytes": 11576,
+      "archive_sha256": "e7dd9bbe1e5739a7b3843d3438e46fbfc3c46c19b9a248772622841758ab42b4"
+    },
+    {
       "path": "stator-alignment-pilot-20260912-01/samples.jsonl",
       "original_bytes": 88649,
       "original_sha256": "0191748452e81a067fe64b0c9b254f1c8f34dc34e709f2ed03dd7b2dfa9ff48a",

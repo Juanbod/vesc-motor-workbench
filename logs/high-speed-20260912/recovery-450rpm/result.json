@@ -1,0 +1,24 @@
+{
+  "reason": null,
+  "last_sample": {
+    "temp_mos_c": 25.3,
+    "temp_motor_c": -55.1,
+    "current_motor_a": 0.0,
+    "current_in_a": 0.0,
+    "id_a": 0.0,
+    "iq_a": 0.0,
+    "duty": 0.0,
+    "erpm": 0,
+    "v_in": 25.2,
+    "fault_code": 0,
+    "encoder_angle": 337.47804,
+    "encoder_age": 0.0010345999980927445,
+    "encoder_erpm": 0.0,
+    "turns": -0.00012199999999988156
+  },
+  "cleanup": {
+    "motor_restored": true,
+    "app_output": "disabled until power cycle"
+  },
+  "baseline_restored": true
+}
